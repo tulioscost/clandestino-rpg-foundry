@@ -1,0 +1,242 @@
+[
+  {
+    "name": "A-01 · Rastejador de Dutos",
+    "type": "clandestino",
+    "system": {
+      "health": {
+        "value": 6,
+        "max": 6
+      },
+      "protection": 0,
+      "attackDice": 3,
+      "damage": 2,
+      "clues": "Grade vibrando em intervalo incompatível com ventiladores.",
+      "countermeasures": "Foco de luz industrial e isolamento por portas corta-fogo.",
+      "clock": {
+        "value": 0,
+        "max": 4
+      },
+      "description": "Rastreabilidade: CL-01; CL-02 (indícios de transição). Estatísticas preservadas: PV 6; proteção 0; ataque 3d6 / 2.\nContramedida registrada: Luz intensa; isolamento dos dutos.\nComportamento — Busca vibração e calor nos shafts de manutenção.\nPista inequívoca — Grade vibrando em intervalo incompatível com ventiladores.\nEscalada em quatro passos — Apaga sensores periféricos; muda de duto; bloqueia a ventilação; alcança a enfermaria.\nContramedida — Foco de luz industrial e isolamento por portas corta-fogo.\nPreço da contenção — Fechar dutos remove circulação de ar de um setor até reparo.\nRevelação de horror — Um corpo de metal move-se nos dutos; o monitor de temperatura registra uma forma quente e vazia.\n"
+    }
+  },
+  {
+    "name": "A-02 · Esporo Vivo",
+    "type": "clandestino",
+    "system": {
+      "health": {
+        "value": 4,
+        "max": 4
+      },
+      "protection": 0,
+      "attackDice": 2,
+      "damage": 1,
+      "clues": "Película brilhante nos filtros e condensação de odor adocicado.",
+      "countermeasures": "Desviar fluxo, lacrar entradas e substituir cartuchos contaminados.",
+      "clock": {
+        "value": 0,
+        "max": 4
+      },
+      "description": "Rastreabilidade: CL-02 (nome); CL-03 (estatística). Estatísticas preservadas: PV 4; proteção 0; ataque 2d6 / 1.\nContramedida registrada: Despressurizar câmara contaminada.\nComportamento — Coloniza umidade e usa ventilação como vetor, sem consciência individual.\nPista inequívoca — Película brilhante nos filtros e condensação de odor adocicado.\nEscalada em quatro passos — Contamina filtro; chega ao refeitório; invade cabine; atinge reservatório central.\nContramedida — Desviar fluxo, lacrar entradas e substituir cartuchos contaminados.\nPreço da contenção — Isolamento reduz Ar do Lar em 1 até instalar filtro novo.\nRevelação de horror — A mancha responde à respiração coletiva, não ao movimento individual.\n"
+    }
+  },
+  {
+    "name": "A-03 · Imitador",
+    "type": "clandestino",
+    "system": {
+      "health": {
+        "value": 8,
+        "max": 8
+      },
+      "protection": 0,
+      "attackDice": 3,
+      "damage": 2,
+      "clues": "Duas gravações comprovam presença simultânea em locais diferentes.",
+      "countermeasures": "Confronto de memórias independentes e credenciais fora da rede.",
+      "clock": {
+        "value": 0,
+        "max": 4
+      },
+      "description": "Rastreabilidade: CL-04; CL-05 (indícios de transição). Estatísticas preservadas: PV 8; proteção 0; ataque 3d6 / 2.\nContramedida registrada: Registros cruzados; identidades offline.\nComportamento — Reproduz hábitos observados e procura acesso institucional.\nPista inequívoca — Duas gravações comprovam presença simultânea em locais diferentes.\nEscalada em quatro passos — Assimila senha; ganha confiança; isola testemunha; alcança autenticação de emergência.\nContramedida — Confronto de memórias independentes e credenciais fora da rede.\nPreço da contenção — Divulgar provas expõe inocentes à execução corporativa.\nRevelação de horror — Tem recordações coerentes, mas erra um detalhe anterior à sua chegada.\n"
+    }
+  },
+  {
+    "name": "A-04 · Caçador Biomecânico",
+    "type": "clandestino",
+    "system": {
+      "health": {
+        "value": 12,
+        "max": 12
+      },
+      "protection": 2,
+      "attackDice": 4,
+      "damage": 3,
+      "clues": "Trilhos recentemente soldados e parafusos consumidos.",
+      "countermeasures": "Isca térmica distante seguida de interrupção elétrica localizada.",
+      "clock": {
+        "value": 0,
+        "max": 4
+      },
+      "description": "Rastreabilidade: CL-05 (nome); CL-06 (estatística). Estatísticas preservadas: PV 12; proteção 2; ataque 4d6 / 3.\nContramedida registrada: Sobrecarga eletromagnética local.\nComportamento — Interpreta calor e ruído como alvos e prioriza corredores de fuga.\nPista inequívoca — Trilhos recentemente soldados e parafusos consumidos.\nEscalada em quatro passos — Identifica trilha; destrói porta; corta retorno; guarda a única eclusa.\nContramedida — Isca térmica distante seguida de interrupção elétrica localizada.\nPreço da contenção — A descarga que o detém também incapacita equipamentos médicos.\nRevelação de horror — Cada disparo registra a localização do grupo no mapa térmico.\n"
+    }
+  },
+  {
+    "name": "A-05 · Núcleo Vivo",
+    "type": "clandestino",
+    "system": {
+      "health": {
+        "value": 0,
+        "max": 0
+      },
+      "protection": 0,
+      "attackDice": 0,
+      "damage": 0,
+      "clues": "Cabos apresentam crescimento orgânico e pulsos sincronizados.",
+      "countermeasures": "Isolar alimentação física e transportar dados em mídia offline.",
+      "clock": {
+        "value": 0,
+        "max": 4
+      },
+      "description": "Rastreabilidade: CL-07; CL-08 (indícios de transição). Estatísticas preservadas: PV —; proteção —; ataque relógio.\nContramedida registrada: Cortar alimentação física.\nComportamento — Se integra às redes e favorece setores com energia constante.\nPista inequívoca — Cabos apresentam crescimento orgânico e pulsos sincronizados.\nEscalada em quatro passos — Aprende comandos; bloqueia um setor; assume suporte vital; solicita purga.\nContramedida — Isolar alimentação física e transportar dados em mídia offline.\nPreço da contenção — Desligamento pode deixar enfermaria sem energia.\nRevelação de horror — Não possui PV; a ameaça é o controle progressivo do ambiente.\nAmeaça por relógio; sem PV/ataque convencional conforme livro."
+    }
+  },
+  {
+    "name": "A-06 · Coral de Antenas",
+    "type": "clandestino",
+    "system": {
+      "health": {
+        "value": 0,
+        "max": 0
+      },
+      "protection": 0,
+      "attackDice": 0,
+      "damage": 0,
+      "clues": "O mesmo fragmento vocal surge em rádios sem antena.",
+      "countermeasures": "Desacoplar antenas e trabalhar com sinais visuais.",
+      "clock": {
+        "value": 0,
+        "max": 4
+      },
+      "description": "Rastreabilidade: CL-08 (nome); CL-09 (estatística). Estatísticas preservadas: PV —; proteção —; ataque relógio.\nContramedida registrada: Cortar enlaces e antenas.\nComportamento — Propaga instruções por frequências repetitivas e busca novos retransmissores.\nPista inequívoca — O mesmo fragmento vocal surge em rádios sem antena.\nEscalada em quatro passos — Aprende nomes; duplica canal; coordena drones; transmite para outra estação.\nContramedida — Desacoplar antenas e trabalhar com sinais visuais.\nPreço da contenção — Apagar a transmissão impede pedido de socorro.\nRevelação de horror — Os sinais chegam antes de serem transmitidos.\nAmeaça por relógio; sem PV/ataque convencional conforme livro."
+    }
+  },
+  {
+    "name": "A-07 · Mãe de Ferrugem",
+    "type": "clandestino",
+    "system": {
+      "health": {
+        "value": 14,
+        "max": 14
+      },
+      "protection": 1,
+      "attackDice": 3,
+      "damage": 3,
+      "clues": "Corrosão circular em suportes que deveriam estar secos.",
+      "countermeasures": "Privar a colônia do metal acessível e remover liga contaminada.",
+      "clock": {
+        "value": 0,
+        "max": 4
+      },
+      "description": "Rastreabilidade: CL-10; CL-11 (indícios de transição). Estatísticas preservadas: PV 14; proteção 1; ataque 3d6 / 3.\nContramedida registrada: Isolar metais e ligas contaminadas.\nComportamento — Consome ligas metálicas para ampliar passagens e ninho.\nPista inequívoca — Corrosão circular em suportes que deveriam estar secos.\nEscalada em quatro passos — Consome peças; fragiliza eclusa; rompe tubulação; abre casco.\nContramedida — Privar a colônia do metal acessível e remover liga contaminada.\nPreço da contenção — Retirar o material salva vidas, mas diminui Integridade.\nRevelação de horror — A infestação segue a tubulação, não perseguirá alguém longe dela.\n"
+    }
+  },
+  {
+    "name": "A-08 · Visitante da Vigília",
+    "type": "clandestino",
+    "system": {
+      "health": {
+        "value": 7,
+        "max": 7
+      },
+      "protection": 0,
+      "attackDice": 3,
+      "damage": 1,
+      "clues": "Relógios de turno divergem; gravações mostram cadeiras vazias.",
+      "countermeasures": "Escalas de repouso monitoradas por pessoas acordadas e observação dupla.",
+      "clock": {
+        "value": 0,
+        "max": 4
+      },
+      "description": "Rastreabilidade: CL-11 (nome); CL-12 (estatística). Estatísticas preservadas: PV 7; proteção 0; ataque 3d6 / 1.\nContramedida registrada: Repouso protegido e revezamento.\nComportamento — Se manifesta durante privação de sono e imita lembranças de infância.\nPista inequívoca — Relógios de turno divergem; gravações mostram cadeiras vazias.\nEscalada em quatro passos — Faz vigília; distorce tempo; causa erro de turno; abre uma porta durante sono.\nContramedida — Escalas de repouso monitoradas por pessoas acordadas e observação dupla.\nPreço da contenção — Dormir consome horas críticas do relógio do incidente.\nRevelação de horror — A entidade não aparece para pessoas em ciclo normal de sono.\n"
+    }
+  },
+  {
+    "name": "A-09 · Medusa de Gelo",
+    "type": "clandestino",
+    "system": {
+      "health": {
+        "value": 10,
+        "max": 10
+      },
+      "protection": 1,
+      "attackDice": 3,
+      "damage": 2,
+      "clues": "Gelo forma cristais contra o fluxo de ar.",
+      "countermeasures": "Aquecimento lento e estabilização das pressões.",
+      "clock": {
+        "value": 0,
+        "max": 4
+      },
+      "description": "Rastreabilidade: CL-13; CL-14 (indícios de transição). Estatísticas preservadas: PV 10; proteção 1; ataque 3d6 / 2.\nContramedida registrada: Aquecimento lento, estabilizar pressão.\nComportamento — Cria gradientes térmicos para imobilizar presas e selar acesso.\nPista inequívoca — Gelo forma cristais contra o fluxo de ar.\nEscalada em quatro passos — Resfria metal; congela fechadura; ataca traje; fecha corredor.\nContramedida — Aquecimento lento e estabilização das pressões.\nPreço da contenção — Aquecimento rápido pode causar rachadura estrutural.\nRevelação de horror — Vibrações na parede cessam ao diminuir a temperatura.\n"
+    }
+  },
+  {
+    "name": "A-10 · Voz Entre Pulsos",
+    "type": "clandestino",
+    "system": {
+      "health": {
+        "value": 0,
+        "max": 0
+      },
+      "protection": 0,
+      "attackDice": 0,
+      "damage": 0,
+      "clues": "Registro de ordem sem emissor nem identificação válida.",
+      "countermeasures": "Comunicação escrita offline e confirmação presencial por duas pessoas.",
+      "clock": {
+        "value": 0,
+        "max": 4
+      },
+      "description": "Rastreabilidade: CL-14 (nome); CL-15 (estatística). Estatísticas preservadas: PV —; proteção —; ataque relógio.\nContramedida registrada: Desligar voz sintética.\nComportamento — Usa mensagens operacionais para induzir ações contraditórias.\nPista inequívoca — Registro de ordem sem emissor nem identificação válida.\nEscalada em quatro passos — Falsifica voz; cria alarme; ordena isolamento; ativa emergência indevida.\nContramedida — Comunicação escrita offline e confirmação presencial por duas pessoas.\nPreço da contenção — A comunicação segura demora mais e consome turnos.\nRevelação de horror — Não tem corpo atacável: só controle do fluxo de informações.\nAmeaça por relógio; sem PV/ataque convencional conforme livro."
+    }
+  },
+  {
+    "name": "A-11 · Operário Oco",
+    "type": "clandestino",
+    "system": {
+      "health": {
+        "value": 8,
+        "max": 8
+      },
+      "protection": 1,
+      "attackDice": 3,
+      "damage": 2,
+      "clues": "Um crachá inválido continua marcando entrada em todos os turnos.",
+      "countermeasures": "Parada mecânica e isolamento de estação de trabalho.",
+      "clock": {
+        "value": 0,
+        "max": 4
+      },
+      "description": "Rastreabilidade: CL-16; CL-17 (indícios de transição). Estatísticas preservadas: PV 8; proteção 1; ataque 3d6 / 2.\nContramedida registrada: Parada mecânica e isolamento.\nComportamento — Repete rotina industrial e reage à interrupção como erro de processo.\nPista inequívoca — Um crachá inválido continua marcando entrada em todos os turnos.\nEscalada em quatro passos — Executa ordem; remove obstáculos; busca substituto; liga equipamento perigoso.\nContramedida — Parada mecânica e isolamento de estação de trabalho.\nPreço da contenção — Paralisar a linha reduz recursos, mas preserva tripulantes.\nRevelação de horror — Pode ser contornado com sinais industriais, não necessariamente com violência.\n"
+    }
+  },
+  {
+    "name": "A-12 · Enxame de Costura",
+    "type": "clandestino",
+    "system": {
+      "health": {
+        "value": 5,
+        "max": 5
+      },
+      "protection": 0,
+      "attackDice": 4,
+      "damage": 1,
+      "clues": "Microcortes perfeitamente paralelos em roupas e juntas.",
+      "countermeasures": "Espuma industrial e campos de contenção mecânica.",
+      "clock": {
+        "value": 0,
+        "max": 4
+      },
+      "description": "Rastreabilidade: CL-17 (nome); CL-18 (estatística). Estatísticas preservadas: PV 5; proteção 0; ataque 4d6 / 1.\nContramedida registrada: Espuma industrial e vedação.\nComportamento — Repara e abre vedações conforme padrão não humano.\nPista inequívoca — Microcortes perfeitamente paralelos em roupas e juntas.\nEscalada em quatro passos — Entra na luva; atravessa filtro; abre vedação; invade traje.\nContramedida — Espuma industrial e campos de contenção mecânica.\nPreço da contenção — Espuma torna uma passagem intransitável até limpeza.\nRevelação de horror — O enxame imita pontos de sutura, inclusive em superfícies inertes.\n"
+    }
+  }
+]

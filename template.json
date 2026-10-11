@@ -169,7 +169,10 @@
       "base": {
         "description": "",
         "quantity": 1,
-        "weight": 0
+        "weight": 0,
+        "rollAttribute": "INT",
+        "rollSkill": "",
+        "rollBonus": 0
       },
       "weapon": {
         "damage": 2,

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "NÉRIDA-6",
+    "type": "lar",
+    "system": {
+      "description": "Nave cargueira: O Palete 9\nNave cargueira; 6 setores, 6 conexões verificadas. Operação: O Palete 9\nOs valores de recursos abaixo são defaults da ficha VTT, não necessariamente as estatísticas do cenário.",
+      "resources": {
+        "atmosfera": 3,
+        "energia": 3,
+        "estrutura": 3,
+        "comunicacao": 3
+      },
+      "supplies": {
+        "pecas": 3,
+        "racoes": 3,
+        "medicamentos": 1
+      },
+      "sectors": "Nave cargueira; 6 setores, 6 conexões verificadas. Operação: O Palete 9",
+      "incidents": ""
+    }
+  },
+  {
+    "name": "JARDIM-17",
+    "type": "lar",
+    "system": {
+      "description": "Colônia agrícola: A Colônia sem Sono\nColônia agrícola; 8 setores, 9 conexões verificadas. Produção de oxigênio para três habitats.\nOs valores de recursos abaixo são defaults da ficha VTT, não necessariamente as estatísticas do cenário.",
+      "resources": {
+        "atmosfera": 3,
+        "energia": 3,
+        "estrutura": 3,
+        "comunicacao": 3
+      },
+      "supplies": {
+        "pecas": 3,
+        "racoes": 3,
+        "medicamentos": 1
+      },
+      "sectors": "Colônia agrícola; 8 setores, 9 conexões verificadas. Produção de oxigênio para três habitats.",
+      "incidents": ""
+    }
+  },
+  {
+    "name": "ATALAIA-3",
+    "type": "lar",
+    "system": {
+      "description": "Estação de transferência: O Tripulante Errado\nEstação de transferência; 6 setores, 6 conexões verificadas. Energia 4, Atmosfera 5, Integridade 4, Suprimentos 3 no cenário.\nOs valores de recursos abaixo são defaults da ficha VTT, não necessariamente as estatísticas do cenário.",
+      "resources": {
+        "atmosfera": 3,
+        "energia": 3,
+        "estrutura": 3,
+        "comunicacao": 3
+      },
+      "supplies": {
+        "pecas": 3,
+        "racoes": 3,
+        "medicamentos": 1
+      },
+      "sectors": "Estação de transferência; 6 setores, 6 conexões verificadas. Energia 4, Atmosfera 5, Integridade 4, Suprimentos 3 no cenário.",
+      "incidents": ""
+    }
+  }
+]

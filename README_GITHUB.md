@@ -1,3 +1,5 @@
+> v0.6.25: gerador de personagens agora inclui kit inicial, créditos e vícios/compulsões quando couber; ameaças do compêndio receberam retratos individuais.
+
 > v0.4.3: descrições individuais de 96 registros do compêndio de itens e armas.
 
 > Atualização 0.4.2: compêndio de itens e armas agora inclui ícones únicos em silhueta.

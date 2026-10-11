@@ -1,8 +1,8 @@
 {
   "id": "clandestino-rpg-foundry",
   "title": "CLANDESTINO — Horror Espacial",
-  "description": "Relógio do Apocalipse compacto, com visor retrofuturista baseado na referência, e contagem compartilhada.",
-  "version": "0.6.22",
+  "description": "Bestiário com 25 ameaças em cinco níveis e gerador de fichas com nome, sobrenome, Origem, Caminho e Trilha.",
+  "version": "0.6.23",
   "authors": [
     {
       "name": "Adaptação digital experimental — baseado em CLANDESTINO, de Túlio Costa"
@@ -29,7 +29,7 @@
   "secondaryTokenAttribute": "bpm",
   "url": "https://github.com/tulioscost/clandestino-rpg-foundry",
   "manifest": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/latest/download/system.json",
-  "download": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/download/v0.6.22/clandestino-rpg-foundry.zip",
+  "download": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/download/v0.6.23/clandestino-rpg-foundry.zip",
   "media": [
     {
       "type": "cover",

@@ -1,8 +1,8 @@
 {
   "id": "clandestino-rpg-foundry",
   "title": "CLANDESTINO — Horror Espacial",
-  "description": "Correção da integração Dice So Nice com faces PNG transparentes do d6 CLANDESTINO e seleção opcional do preset neon.",
-  "version": "0.6.13",
+  "description": "Hotfix: pausa nativa preservada, relógio de pausa oculto, JOGO PARADO exibido e pacote Release completo.",
+  "version": "0.6.15",
   "authors": [
     {
       "name": "Adaptação digital experimental — baseado em CLANDESTINO, de Túlio Costa"
@@ -28,7 +28,7 @@
   "secondaryTokenAttribute": "bpm",
   "url": "https://github.com/tulioscost/clandestino-rpg-foundry",
   "manifest": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/latest/download/system.json",
-  "download": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/download/v0.6.13/clandestino-rpg-foundry.zip",
+  "download": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/download/v0.6.15/clandestino-rpg-foundry.zip",
   "media": [
     {
       "type": "cover",

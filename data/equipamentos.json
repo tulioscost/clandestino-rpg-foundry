@@ -1,0 +1,357 @@
+[
+  {
+    "name": "Fita de vedação",
+    "type": "equipamento",
+    "system": {
+      "description": "Sela vazamento pequeno por uma cena",
+      "uc": 4,
+      "weight": 0,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Espuma expansiva",
+    "type": "equipamento",
+    "system": {
+      "description": "Contém rachadura temporariamente",
+      "uc": 8,
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Filtro de ar",
+    "type": "equipamento",
+    "system": {
+      "description": "Recupera 1 unidade de Ar se acoplável",
+      "uc": 10,
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Célula de energia",
+    "type": "equipamento",
+    "system": {
+      "description": "Recupera 1 unidade de Energia para módulo portátil",
+      "uc": 12,
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Peças calibradas",
+    "type": "equipamento",
+    "system": {
+      "description": "Uma carga para reparo estável",
+      "uc": 10,
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Traje EVA básico",
+    "type": "equipamento",
+    "system": {
+      "description": "Permite ação externa com suprimento",
+      "uc": 55,
+      "weight": 2,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Reserva EVA",
+    "type": "equipamento",
+    "system": {
+      "description": "Amplia trabalho fora do Lar por uma cena",
+      "uc": 20,
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Sensor de movimento",
+    "type": "equipamento",
+    "system": {
+      "description": "Detecção de presença sem identificação",
+      "uc": 25,
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Lanterna química",
+    "type": "equipamento",
+    "system": {
+      "description": "Iluminação por uma cena",
+      "uc": 2,
+      "weight": 0,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Farol industrial",
+    "type": "equipamento",
+    "system": {
+      "description": "Ilumina setor em pane",
+      "uc": 18,
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Tablet diagnóstico",
+    "type": "equipamento",
+    "system": {
+      "description": "Habilita diagnóstico de subsistemas",
+      "uc": 35,
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Terminal de intrusão",
+    "type": "equipamento",
+    "system": {
+      "description": "Habilita acesso físico a redes seladas",
+      "uc": 50,
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Kit médico",
+    "type": "equipamento",
+    "system": {
+      "description": "Habilita estabilização; duas utilizações",
+      "uc": 22,
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Injetor de emergência",
+    "type": "equipamento",
+    "system": {
+      "description": "Aplicação simples; requer dose",
+      "uc": 15,
+      "weight": 0,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Rações 1 dia",
+    "type": "equipamento",
+    "system": {
+      "description": "Alimentação para uma pessoa",
+      "uc": 5,
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Água potável 1 dia",
+    "type": "equipamento",
+    "system": {
+      "description": "Água para uma pessoa",
+      "uc": 5,
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Rádio cabeado",
+    "type": "equipamento",
+    "system": {
+      "description": "Comunica setores após pane sem fio",
+      "uc": 15,
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Gravador offline",
+    "type": "equipamento",
+    "system": {
+      "description": "Preserva evidências isoladas",
+      "uc": 8,
+      "weight": 0,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Drone de inspeção",
+    "type": "equipamento",
+    "system": {
+      "description": "Explora local perigoso; operação remota",
+      "uc": 90,
+      "weight": 2,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Contêiner de amostras",
+    "type": "equipamento",
+    "system": {
+      "description": "Retém pequena amostra sob protocolo",
+      "uc": 40,
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Pistola compacta",
+    "type": "arma",
+    "system": {
+      "description": "Dano 2; acesso controlado",
+      "uc": 80,
+      "weight": 1,
+      "quantity": 1,
+      "damage": 2
+    }
+  },
+  {
+    "name": "Escopeta",
+    "type": "arma",
+    "system": {
+      "description": "Dano 3; ruído/perfuração",
+      "uc": 110,
+      "weight": 2,
+      "quantity": 1,
+      "damage": 3
+    }
+  },
+  {
+    "name": "Ferramenta de corte",
+    "type": "arma",
+    "system": {
+      "description": "Dano 2 ou reparo específico",
+      "uc": 25,
+      "weight": 1,
+      "quantity": 1,
+      "damage": 2
+    }
+  },
+  {
+    "name": "Colete de contenção",
+    "type": "armadura",
+    "system": {
+      "description": "Proteção 1; mobilidade limitada",
+      "uc": 65,
+      "weight": 2,
+      "quantity": 1,
+      "protection": 1
+    }
+  },
+  {
+    "name": "Carga de purga",
+    "type": "arma",
+    "system": {
+      "description": "Dano 4 em área; compromete Integridade",
+      "uc": 120,
+      "weight": 2,
+      "quantity": 1,
+      "damage": 4
+    }
+  },
+  {
+    "name": "Sonda de casco",
+    "type": "equipamento",
+    "system": {
+      "description": "Inspecionar fendas externas; telemetria limitada por blindagem",
+      "uc": 12,
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Rolo de vedação",
+    "type": "equipamento",
+    "system": {
+      "description": "Conter microfissura por uma cena; não substitui reparo estrutural",
+      "uc": 6,
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Câmera em carretel",
+    "type": "equipamento",
+    "system": {
+      "description": "Explorar duto sem entrar; cabo pode ser cortado",
+      "uc": 8,
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Terminal isolado",
+    "type": "equipamento",
+    "system": {
+      "description": "Ler dados sem rede; sem comunicação externa",
+      "uc": 15,
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Bateria de emergência",
+    "type": "equipamento",
+    "system": {
+      "description": "Alimentar equipamento portátil por cena; carga finita",
+      "uc": 10,
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Filtro classe industrial",
+    "type": "equipamento",
+    "system": {
+      "description": "Isolar contaminante conhecido; falha contra agente desconhecido",
+      "uc": 18,
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Farol de socorro",
+    "type": "equipamento",
+    "system": {
+      "description": "Transmitir localização e log; revela posição a terceiros",
+      "uc": 20,
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Dronete de manutenção",
+    "type": "equipamento",
+    "system": {
+      "description": "Acessar espaço impraticável; vulnerável a ruído e magnetismo",
+      "uc": 35,
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Eclusa portátil de reparo",
+    "type": "equipamento",
+    "system": {
+      "description": "Isolar passagem danificada; requer Peças e tempo",
+      "uc": 50,
+      "weight": 2,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Kit de biossegurança",
+    "type": "equipamento",
+    "system": {
+      "description": "Coletar amostra com contenção; descarte obrigatório",
+      "uc": 25,
+      "weight": 1,
+      "quantity": 1
+    }
+  }
+]

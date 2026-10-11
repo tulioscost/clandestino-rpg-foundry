@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Civil",
+    "type": "trilha",
+    "system": {
+      "description": "Caminho: Sobrevivente. Talento inicial: Sorte Estúpida. Efeito: 1 vez por sessão, repita falha e marque +10 BPM..\n\nPatamar 1 | Nenhum Auxílio. Se houver sinais físicos\nacessíveis, identifique um abrigo plausível ou saída\nconhecida sem rolagem. Não revela caminhos ocultos nem\ngarante que a rota esteja livre.\nPatamar 3 | Improviso Humilde. Uma vez por cena, com\nsucata e acesso a ferramentas, monte um utensílio simples.\nDura até o fim da cena ou a primeira falha de uso; não\nsubstitui sistemas pressurizados.\nPatamar 6 | Último a Sair. Uma vez por cena, receba +1 dado\nem um teste para retirar um aliado de perigo imediato; se\nfalhar, sofra a mesma consequência ambiental que ele.\nPatamar 9 | Rota de Serviço. Uma vez por sessão, declare um\nacesso secundário plausível já existente no Lar. O narrador\ninforma a complicação antes de seu uso; não cria passagens\natravés do casco.\nPatamar 12 | Ainda Respiro. Uma vez por campanha, ao\natingir 0 PV, continue consciente por uma rodada. Ainda\nsofre dano, não recupera PV e precisa de atendimento antes\ndo fim da rodada seguinte.",
+      "path": "Sobrevivente",
+      "talent": "Sorte Estúpida",
+      "effect": "1 vez por sessão, repita falha e marque +10 BPM."
+    }
+  },
+  {
+    "name": "Paranoico",
+    "type": "trilha",
+    "system": {
+      "description": "Caminho: Sobrevivente. Talento inicial: Sempre Alerta. Efeito: +1 dado para identificar emboscada; não revela ameaças impossíveis de detectar..\n\nPatamar 1 | Conferir Duas Vezes. Uma vez por cena, peça ao\nnarrador um detalhe físico observável que contrarie a\naparência de um setor; a resposta não identifica\nautomaticamente sua causa.\nPatamar 3 | Câmera Cega. Uma vez por cena, +1 dado para\ndetectar vigilância ou armadilha em alcance sensorial; não\natravessa blindagem nem substitui sensores.\nPatamar 6 | Preparar Retirada. Uma vez por sessão, declare\nantes do perigo um setor de retirada alcançável. Durante a\nfuga, reduza uma consequência menor para um aliado;\nportas seladas continuam seladas.\nPatamar 9 | Olhos Sem Sono. Enquanto estiver acordado em\nvigília declarada, não perde a primeira ação por surpresa\ncomum; ganhe +10 BPM ao acionar. Não afeta emboscadas\nimpossíveis de perceber.\nPatamar 12 | Protocolo de Fuga. Uma vez por campanha,\nrevele um plano prévio de evacuação viável; consuma uma\ncarga de equipamento e perca um recurso do Lar. Não\ngarante resgate externo.",
+      "path": "Sobrevivente",
+      "talent": "Sempre Alerta",
+      "effect": "+1 dado para identificar emboscada; não revela ameaças impossíveis de detectar."
+    }
+  },
+  {
+    "name": "Engenheiro",
+    "type": "trilha",
+    "system": {
+      "description": "Caminho: Técnico. Talento inicial: Reparos Rápidos. Efeito: Reparo temporário de dificuldade 1 sem gastar Peças uma vez por sessão..\n\nPatamar 1 | Mãos Certas. Dispense rolagem de reparo\nrotineiro somente com tempo, peças compatíveis, segurança\ne acesso físico. Sob ameaça ou com dano estrutural, role\nnormalmente.\nPatamar 3 | Ponte de Circuito. Uma vez por cena, faça um\nreparo provisório funcionar até o término da cena mediante\nbateria, carga residual ou alimentação alternativa. Gaste 1\ncarga de Peças; sem fonte energética, não funciona.\nPatamar 6 | Redundância. Uma vez por sessão, quando um\nsubsistema perderia 1 ponto, gaste 1 carga de Peças para\ncancelar apenas essa perda. Não recupera pontos já\nperdidos.\nPatamar 9 | Reator Provisório. Uma vez por sessão, transfira\n1 ponto de Energia disponível de um setor para outro\nconectado. O setor doador perde esse ponto e recebe uma\nfalha menor.\nPatamar 12 | Ar que Resta. Uma vez por campanha, quando\nAtmosfera chegaria a 0, conserve um único setor com ar\nrespirável durante uma cena, gastando reserva selada. Ao\nfinal, perca 1 ponto de Estrutura; não cria oxigênio.",
+      "path": "Técnico",
+      "talent": "Reparos Rápidos",
+      "effect": "Reparo temporário de dificuldade 1 sem gastar Peças uma vez por sessão."
+    }
+  },
+  {
+    "name": "Hacker",
+    "type": "trilha",
+    "system": {
+      "description": "Caminho: Técnico. Talento inicial: Acesso Rápido. Efeito: +1 dado ao invadir terminais acessíveis; deixa rastro ou gasta tempo..\n\nPatamar 1 | Janela de Serviço. Em contato com terminal\nacessível, identifique a credencial necessária e o vestígio de\nintrusão que permanecerá. Não concede acesso por si.\nPatamar 3 | Credencial Falsa. Uma vez por cena, com\nterminal e interface adequados, falsifique acesso ordinário\ndurante uma ação; marque 1 segmento no relógio de\nrastreamento de quatro.\nPatamar 6 | Loop de Imagem. Uma vez por cena, anule por\numa rodada uma câmera ou sensor conectado a terminal\nacessível. O apagão gera um registro posterior.\nPatamar 9 | Porta dos Fundos. Após acesso físico e teste de\nInformática, instale entrada persistente na rede até que seja\ndetectada ou removida. O narrador registra relógio de\ndescoberta de quatro segmentos.\nPatamar 12 | Última Transmissão. Uma vez por campanha,\ntransmita dados preparados antes da perda de\ncomunicações, se houver antena e energia residual. O sinal\nrevela a origem do envio.\n\nCLANDESTINO\nDOCUMENTO CORPORATIVO  /  EDIÇÃO 4.6\nCLANDESTINO • ARQUIVO RESTRITO\n008",
+      "path": "Técnico",
+      "talent": "Acesso Rápido",
+      "effect": "+1 dado ao invadir terminais acessíveis; deixa rastro ou gasta tempo."
+    }
+  },
+  {
+    "name": "Líder",
+    "type": "trilha",
+    "system": {
+      "description": "Caminho: Social. Talento inicial: Voz de Comando. Efeito: Um aliado consciente recebe +1 dado após instrução concreta; uma vez por cena..\n\nPatamar 1 | Distribuir Funções. Antes de uma ação\ncoordenada, escolha um aliado que possa ouvir suas\ninstruções; ele recebe +1 dado em seu primeiro teste da\noperação. Um uso por cena.\nPatamar 3 | Ritmo de Turno. Uma vez por cena segura, após\ncinco minutos de descanso, reduza em 10 o BPM de até dois\naliados; o efeito não reduz seu próprio BPM.\nPatamar 6 | Plano Curto. Uma vez por sessão, após uma falha\nde ação coletiva, transforme-a em sucesso parcial,\nconsumindo 1 recurso plausível previamente disponível; não\nanula ferimentos graves.\nPatamar 9 | Todos para a Escotilha. Uma vez por cena,\ndurante evacuação, até dois aliados realizam movimento\nadicional seguro; você permanece no setor perigoso até a\npróxima rodada.\nPatamar 12 | Nenhum Nome Esquecido. Uma vez por\ncampanha, em uma evacuação final, identifique a pessoa\nabandonada ou rota isolada. Permita que um alvo alcance a\nsaída somente se a rota for fisicamente possível; você sofre\nferimento grave OU perde 2 pontos de recurso do Lar, à\nescolha do narrador anunciada antes.",
+      "path": "Social",
+      "talent": "Voz de Comando",
+      "effect": "Um aliado consciente recebe +1 dado após instrução concreta; uma vez por cena."
+    }
+  },
+  {
+    "name": "Crente",
+    "type": "trilha",
+    "system": {
+      "description": "Caminho: Social. Talento inicial: Oração Curta. Efeito: Ritual voluntário em segurança reduz 10 BPM de um aliado; uma vez por cena..\n\nPatamar 1 | Ritual de Cabine. Uma vez por cena segura, um\nritual de cinco minutos reduz em 5 o BPM de um participante\nvoluntário. Não pode ser repetido na mesma cena.\nPatamar 3 | Palavra Âncora. Uma vez por cena, +1 dado\ncontra medo ao proteger vínculo declarado. Se falhar, receba\n+5 BPM.\nPatamar 6 | Vigília Coletiva. Uma vez por sessão,\nimediatamente após gatilho de BPM e antes do teste de\ncolapso, impeça por uma rodada que até três aliados\npresentes entrem em colapso. O BPM continua acumulado;\nos testes adiados ocorrem ao fim da rodada.\nPatamar 9 | Símbolo Persistente. Uma vez por cena, ao\nobservar fenômeno anômalo, solicite um padrão físico\nverificável. Não identifica origem nem concede proteção\nsobrenatural.\nPatamar 12 | Não Estou Só. Uma vez por campanha, quando\num aliado sofreria colapso por BPM, ele escolhe: recuar\nimediatamente para setor adjacente seguro OU permanecer\ne sofrer trauma grave. Não elimina o BPM nem dano físico.",
+      "path": "Social",
+      "talent": "Oração Curta",
+      "effect": "Ritual voluntário em segurança reduz 10 BPM de um aliado; uma vez por cena."
+    }
+  },
+  {
+    "name": "Fuzileiro Espacial",
+    "type": "trilha",
+    "system": {
+      "description": "Caminho: Militar. Talento inicial: Postura de Combate. Efeito: +1 dado no primeiro ataque da cena se houver cobertura ou preparo..\n\nPatamar 1 | Segurança de Corredor. Uma vez por cena,\nusando cobertura material efetiva, reduza em 1 o dano do\nprimeiro ataque recebido; mínimo 0.\nPatamar 3 | Fogo de Cobertura. Uma vez por cena, gaste 1\ncarga de munição e use sua ação para bloquear um corredor\npor uma rodada contra alvos que possam ser suprimidos.\nNão causa dano.\nPatamar 6 | Rotina de Contenção. Uma vez por cena, +1\ndado em resgate de civis sob tiros ou despressurização; é\nnecessário caminho físico possível.\nPatamar 9 | Não Dispare no Casco. Uma vez por sessão,\nconverta um ataque bem-sucedido em desarme ou atraso de\numa rodada, sem dano; evita somente o dano estrutural\ncausado por esse ataque.\nPatamar 12 | Retaguarda. Uma vez por campanha, impeça\npor uma rodada a passagem de ameaça em abertura que\npossa ser bloqueada. Sofra 1 ferimento grave ou +20 BPM;\nnão contém colapso estrutural.",
+      "path": "Militar",
+      "talent": "Postura de Combate",
+      "effect": "+1 dado no primeiro ataque da cena se houver cobertura ou preparo."
+    }
+  },
+  {
+    "name": "Oficial de Contenção",
+    "type": "trilha",
+    "system": {
+      "description": "Caminho: Militar. Talento inicial: Protocolo de Isolamento. Efeito: +1 dado para fechar rota de propagação sob pressão..\n\nPatamar 1 | Selo Sanitário. Com acesso, materiais e tempo,\nidentifique a vedação viável entre setores; não a instala\ninstantaneamente.\nPatamar 3 | Área de Exclusão. Uma vez por cena, consuma 1\ncarga de contenção para impedir por uma rodada o\ndeslocamento de ameaça menor através de um acesso\nvedável. Ameaças maiores exigem teste.\nPatamar 6 | Quarentena. Uma vez por cena, com recursos e\nacesso, isole um setor e receba +1 dado para contenção; a\ncomunicação desse setor fica indisponível até ser\nrestaurada.\nPatamar 9 | Protocolo Cinza. Uma vez por sessão, realize\npurga de um setor se houver sistema funcional. Remova a\nameaça ambiental menor e destrua provas; cause 1 perda de\nIntegridade.\nPatamar 12 | Decisão de Comando. Uma vez por campanha,\nsuste ruptura entre setores por uma cena mediante\nfechamento irreversível de acesso. Ocupantes ficam\nisolados, e a decisão deve ser comunicada ao grupo.",
+      "path": "Militar",
+      "talent": "Protocolo de Isolamento",
+      "effect": "+1 dado para fechar rota de propagação sob pressão."
+    }
+  },
+  {
+    "name": "Pesquisador Chefe",
+    "type": "trilha",
+    "system": {
+      "description": "Caminho: Corporativo. Talento inicial: Olhar Científico. Efeito: Ao obter uma pista de criatura, formule uma pergunta adicional sobre padrão..\n\nPatamar 1 | Hipótese de Campo. Uma vez por cena, ao\nexaminar evidência real, faça pergunta que teste uma\nhipótese; o narrador responde se a evidência a contradiz.\nPatamar 3 | Laboratório Portátil. Com kit funcional, +1 dado\npara identificar agente físico ou biológico em amostra\nacessível; não revela fraqueza automática.\nPatamar 6 | Experimento Controlado. Uma vez por sessão,\nconsuma uma amostra e teste Ciência para verificar uma\nvulnerabilidade; falha expõe um participante a risco\nanunciado.\nPatamar 9 | Banco de Dados Restrito. Uma vez por sessão,\nobtenha um registro corporativo pertinente por canal\nfuncional. Ele tem omissão substantiva que o narrador\nassinala.\nPatamar 12 | Última Amostra. Uma vez por campanha,\nextraia prova irrecuperável durante evacuação, perdendo 1\ncarga de segurança OU deixando um aliado exposto por uma\nrodada.",
+      "path": "Corporativo",
+      "talent": "Olhar Científico",
+      "effect": "Ao obter uma pista de criatura, formule uma pergunta adicional sobre padrão."
+    }
+  },
+  {
+    "name": "Agente Corporativo",
+    "type": "trilha",
+    "system": {
+      "description": "Caminho: Corporativo. Talento inicial: Autoridade. Efeito: +1 dado com pessoal sujeito ao seu contrato; cria obrigação verificável..\n\nPatamar 1 | Palavra de Ordem. Credencial funcional permite\nacesso a setores ordinários da mesma corporação e deixa\nregistro; não supera bloqueio físico ou quarentena.\nPatamar 3 | Cláusula de Emergência. Uma vez por sessão,\nrequisite recurso de segurança limitado. Chega ao término\nde relógio de quatro segmentos se rota e comunicações\n\nCLANDESTINO\nDOCUMENTO CORPORATIVO  /  EDIÇÃO 4.6\nCLANDESTINO • ARQUIVO RESTRITO\n009\nestiverem disponíveis.\nPatamar 6 | Reclassificar. Uma vez por sessão, remaneje até\ndois recursos logísticos já disponíveis, sem aumentar o total.\nA ordem fica auditável.\nPatamar 9 | Acesso de Diretoria. Uma vez por sessão,\nconsulte dados restritos por terminal autorizado. A\nidentidade de acesso é registrada.\nPatamar 12 | Quebra de Contrato. Uma vez por campanha,\nrevogue uma ordem corporativa sob sua alçada; perca\npermanentemente posto, bens ou proteção. Não cancela\nordens de outra autoridade.",
+      "path": "Corporativo",
+      "talent": "Autoridade",
+      "effect": "+1 dado com pessoal sujeito ao seu contrato; cria obrigação verificável."
+    }
+  },
+  {
+    "name": "Viciado",
+    "type": "trilha",
+    "system": {
+      "description": "Caminho: Degradação. Talento inicial: Estímulo Rápido. Efeito: Uma dose gera +1 dado físico por cena e +10 BPM ao final..\n\nPatamar 1 | Turno Extra. Ao consumir uma dose, +1 dado em\ntestes físicos até fim da cena; depois +10 BPM. Não se\nacumula com outra dose.\nPatamar 3 | Preço da Lucidez. Uma vez por cena, ignore\npenalidade física leve em uma ação, gastando 1 carga\nquímica ou adquirindo estado Exausto até descanso.\nPatamar 6 | Química de Emergência. Uma vez por sessão,\ncom material e tempo, obtenha dose comum; teste Ciência\nou Medicina. Falha contamina uma carga e traz risco\nrevelado.\nPatamar 9 | Fundo do Frasco. Uma vez por sessão, adie por\numa rodada um teste de colapso de BPM. Durante a rodada,\nperde a possibilidade de Percepção ativa.\nPatamar 12 | Permanecer Humano. Uma vez por campanha,\nresista a decisão imposta por dependência ao invocar um\nvínculo; sofra 2 PV de dano, sem redução por proteção.",
+      "path": "Degradação",
+      "talent": "Estímulo Rápido",
+      "effect": "Uma dose gera +1 dado físico por cena e +10 BPM ao final."
+    }
+  },
+  {
+    "name": "Hospedeiro",
+    "type": "trilha",
+    "system": {
+      "description": "Caminho: Contaminação. Talento inicial: Sensibilidade Estranha. Efeito: +1 dado para perceber indícios biológicos, e a anomalia pode percebê-lo..\n\nPatamar 1 | Sinal Sob a Pele. Em alcance próximo, reconheça\nsinal orgânico anômalo por cheiro, calor ou vibração; não\nidentifica espécie nem intenção.\nPatamar 3 | Fome Estranha. Uma vez por cena, +1 dado para\nrastrear vestígio biológico. Receba +5 BPM e manifestação\nvisível da contaminação.\nPatamar 6 | Resposta Reflexa. Uma vez por cena, reduza em\n1 dano de ataque biológico identificado (mínimo 0) e avance\n1 marcador de Contaminação.\nPatamar 9 | Memória da Carne. Uma vez por cena, toque\nresíduo anômalo e obtenha impressão sensorial incompleta;\nrealize teste de VON contra dificuldade 2 ou receba +10\nBPM.\nPatamar 12 | Escolha de Hospedeiro. Uma vez por\ncampanha, adie transformação irreversível por uma cena.\nDepois perca permanentemente 1 ponto de atributo (mínimo\n1) ou aceite isolamento sem saída imediata.\nCusto dramático: crie uma situação na qual esse talento seja\nútil, mas não dispense investigar o problema.\nTripulação de pronta utilização\nOs personagens seguintes usam os nove atributos, seis\nincrementos e oito pontos de perícia. Os talentos sugeridos\ndevem observar as regras deste capítulo. PV = ROB × 3 e\nBPM = máx(50, 70 − 5 × FIB).\nMara Velez\nCaminho / Trilha: Técnico / Engenheiro. Atributos: FOR 1, AGI\n2, ROB 2, CAR 1, MOR 1, FIB 2, INT 3, RAC 2, VON 1. PV 6;\nBPM 60.\nPerícias: Engenharia 3, Diagnóstico 2, Sobrevivência Espacial\n2, Percepção 1. Talento inicial: Reparos Rápidos.\nVínculo/Dívida: A mãe depende do saldo de seu contrato.\nSegredo: A culpa pela última despressurização.\nEquipamento: traje de trabalho, comunicador e item de\nTrilha previsto no livro; UC e acesso conforme o Caminho.\nIvo Nael\nCaminho / Trilha: Sobrevivente / Paranoico. Atributos: FOR 2,\nAGI 2, ROB 2, CAR 1, MOR 2, FIB 2, INT 1, RAC 2, VON 1. PV 6;\nBPM 60.\nPerícias: Percepção 3, Furtividade 2, Atletismo 2,\nInvestigação 1. Talento inicial: Sempre Alerta.\nVínculo/Dívida: A irmã desapareceu numa estação Helios.\nSegredo: Guarda um registro de áudio comprometedor.\nEquipamento: traje de trabalho, comunicador e item de\nTrilha previsto no livro; UC e acesso conforme o Caminho.\nDra. Lian Okoye\nCaminho / Trilha: Corporativo / Pesquisador Chefe. Atributos:\nFOR 1, AGI 1, ROB 2, CAR 1, MOR 2, FIB 1, INT 3, RAC 2, VON\n2. PV 6; BPM 65.\nPerícias: Ciência 3, Medicina 2, Pesquisa 2, Persuasão 1.\nTalento inicial: Olhar Científico.\nVínculo/Dívida: Financia o tratamento do companheiro.\nSegredo: Assinou a autorização de coleta ilegal.\nEquipamento: traje de trabalho, comunicador e item de\nTrilha previsto no livro; UC e acesso conforme o Caminho.\nSora Vale\nCaminho / Trilha: Social / Líder. Atributos: FOR 1, AGI 2, ROB\n1, CAR 3, MOR 2, FIB 2, INT 1, RAC 2, VON 1. PV 3; BPM 60.\nPerícias: Persuasão 3, Disciplina 2, Investigação 2, Foco sob\nPressão 1. Talento inicial: Voz de Comando.\nVínculo/Dívida: Protege os trabalhadores não registrados.\nSegredo: Aceitou um acordo secreto de evacuação.\nEquipamento: traje de trabalho, comunicador e item de\nTrilha previsto no livro; UC e acesso conforme o Caminho.\nTomás Rhee\nCaminho / Trilha: Militar / Oficial de Contenção. Atributos:\nFOR 2, AGI 2, ROB 3, CAR 1, MOR 1, FIB 1, INT 1, RAC 1, VON\n3. PV 9; BPM 65.\nPerícias: Pontaria 3, Contenção de Risco 2, Reflexos 2,\nEstratégia 1. Talento inicial: Protocolo de Isolamento.\nVínculo/Dívida: Deve salvar alguém que antes denunciou.\nSegredo: Recebeu ordem de sacrificar o módulo C.\nEquipamento: traje de trabalho, comunicador e item de\nTrilha previsto no livro; UC e acesso conforme o Caminho.",
+      "path": "Contaminação",
+      "talent": "Sensibilidade Estranha",
+      "effect": "+1 dado para perceber indícios biológicos, e a anomalia pode percebê-lo."
+    }
+  }
+]

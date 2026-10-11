@@ -1,0 +1,227 @@
+[
+  {
+    "key": "FOR_0",
+    "name": "Combate Corpo a Corpo",
+    "attribute": "FOR"
+  },
+  {
+    "key": "FOR_1",
+    "name": "Arrombamento",
+    "attribute": "FOR"
+  },
+  {
+    "key": "FOR_2",
+    "name": "Atletismo",
+    "attribute": "FOR"
+  },
+  {
+    "key": "FOR_3",
+    "name": "Manobra de Carga",
+    "attribute": "FOR"
+  },
+  {
+    "key": "FOR_4",
+    "name": "Contenção de Risco",
+    "attribute": "FOR"
+  },
+  {
+    "key": "AGI_0",
+    "name": "Pontaria",
+    "attribute": "AGI"
+  },
+  {
+    "key": "AGI_1",
+    "name": "Furtividade",
+    "attribute": "AGI"
+  },
+  {
+    "key": "AGI_2",
+    "name": "Reflexos",
+    "attribute": "AGI"
+  },
+  {
+    "key": "AGI_3",
+    "name": "Acrobacia",
+    "attribute": "AGI"
+  },
+  {
+    "key": "AGI_4",
+    "name": "Pilotagem",
+    "attribute": "AGI"
+  },
+  {
+    "key": "ROB_0",
+    "name": "Resistência Física",
+    "attribute": "ROB"
+  },
+  {
+    "key": "ROB_1",
+    "name": "Fôlego",
+    "attribute": "ROB"
+  },
+  {
+    "key": "ROB_2",
+    "name": "Sobrevivência Espacial",
+    "attribute": "ROB"
+  },
+  {
+    "key": "ROB_3",
+    "name": "Tolerância Química",
+    "attribute": "ROB"
+  },
+  {
+    "key": "ROB_4",
+    "name": "Recuperação",
+    "attribute": "ROB"
+  },
+  {
+    "key": "CAR_0",
+    "name": "Persuasão",
+    "attribute": "CAR"
+  },
+  {
+    "key": "CAR_1",
+    "name": "Intimidação",
+    "attribute": "CAR"
+  },
+  {
+    "key": "CAR_2",
+    "name": "Atuação",
+    "attribute": "CAR"
+  },
+  {
+    "key": "CAR_3",
+    "name": "Etiqueta",
+    "attribute": "CAR"
+  },
+  {
+    "key": "CAR_4",
+    "name": "Sedução",
+    "attribute": "CAR"
+  },
+  {
+    "key": "MOR_0",
+    "name": "Coragem",
+    "attribute": "MOR"
+  },
+  {
+    "key": "MOR_1",
+    "name": "Disciplina",
+    "attribute": "MOR"
+  },
+  {
+    "key": "MOR_2",
+    "name": "Fé/Ritual",
+    "attribute": "MOR"
+  },
+  {
+    "key": "MOR_3",
+    "name": "Determinação",
+    "attribute": "MOR"
+  },
+  {
+    "key": "MOR_4",
+    "name": "Integridade",
+    "attribute": "MOR"
+  },
+  {
+    "key": "FIB_0",
+    "name": "Autocontrole",
+    "attribute": "FIB"
+  },
+  {
+    "key": "FIB_1",
+    "name": "Suportar Dor",
+    "attribute": "FIB"
+  },
+  {
+    "key": "FIB_2",
+    "name": "Persistência",
+    "attribute": "FIB"
+  },
+  {
+    "key": "FIB_3",
+    "name": "Foco sob Pressão",
+    "attribute": "FIB"
+  },
+  {
+    "key": "FIB_4",
+    "name": "Estabilidade Mental",
+    "attribute": "FIB"
+  },
+  {
+    "key": "INT_0",
+    "name": "Medicina",
+    "attribute": "INT"
+  },
+  {
+    "key": "INT_1",
+    "name": "Engenharia",
+    "attribute": "INT"
+  },
+  {
+    "key": "INT_2",
+    "name": "Ciência",
+    "attribute": "INT"
+  },
+  {
+    "key": "INT_3",
+    "name": "Informática",
+    "attribute": "INT"
+  },
+  {
+    "key": "INT_4",
+    "name": "Pesquisa",
+    "attribute": "INT"
+  },
+  {
+    "key": "RAC_0",
+    "name": "Investigação",
+    "attribute": "RAC"
+  },
+  {
+    "key": "RAC_1",
+    "name": "Percepção",
+    "attribute": "RAC"
+  },
+  {
+    "key": "RAC_2",
+    "name": "Diagnóstico",
+    "attribute": "RAC"
+  },
+  {
+    "key": "RAC_3",
+    "name": "Navegação",
+    "attribute": "RAC"
+  },
+  {
+    "key": "RAC_4",
+    "name": "Estratégia",
+    "attribute": "RAC"
+  },
+  {
+    "key": "VON_0",
+    "name": "Concentração",
+    "attribute": "VON"
+  },
+  {
+    "key": "VON_1",
+    "name": "Resistência Psíquica",
+    "attribute": "VON"
+  },
+  {
+    "key": "VON_2",
+    "name": "Ímpeto Desesperado",
+    "attribute": "VON"
+  },
+  {
+    "key": "VON_3",
+    "name": "Controle de Impulsos",
+    "attribute": "VON"
+  },
+  {
+    "key": "VON_4",
+    "name": "Lucidez",
+    "attribute": "VON"
+  }
+]

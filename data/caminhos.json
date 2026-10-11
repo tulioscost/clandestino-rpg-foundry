@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Sobrevivente",
+    "type": "caminho",
+    "system": {
+      "description": "Caminho Sobrevivente; UC iniciais: 20. Kit básico: Rádio, fita, lanterna.",
+      "uc": 20,
+      "kit": "Rádio, fita, lanterna"
+    }
+  },
+  {
+    "name": "Técnico",
+    "type": "caminho",
+    "system": {
+      "description": "Caminho Técnico; UC iniciais: 30. Kit básico: Tablet de diagnóstico, ferramentas.",
+      "uc": 30,
+      "kit": "Tablet de diagnóstico, ferramentas"
+    }
+  },
+  {
+    "name": "Social",
+    "type": "caminho",
+    "system": {
+      "description": "Caminho Social; UC iniciais: 30. Kit básico: Comunicador prioritário.",
+      "uc": 30,
+      "kit": "Comunicador prioritário"
+    }
+  },
+  {
+    "name": "Militar",
+    "type": "caminho",
+    "system": {
+      "description": "Caminho Militar; UC iniciais: 40. Kit básico: Armadura leve, arma autorizada.",
+      "uc": 40,
+      "kit": "Armadura leve, arma autorizada"
+    }
+  },
+  {
+    "name": "Corporativo",
+    "type": "caminho",
+    "system": {
+      "description": "Caminho Corporativo; UC iniciais: 50. Kit básico: Credencial de acesso.",
+      "uc": 50,
+      "kit": "Credencial de acesso"
+    }
+  },
+  {
+    "name": "Degradação",
+    "type": "caminho",
+    "system": {
+      "description": "Caminho Degradação; UC iniciais: 20. Kit básico: Estojo de estimulantes.",
+      "uc": 20,
+      "kit": "Estojo de estimulantes"
+    }
+  },
+  {
+    "name": "Contaminação",
+    "type": "caminho",
+    "system": {
+      "description": "Caminho Contaminação; UC iniciais: 10. Kit básico: Monitor biométrico.",
+      "uc": 10,
+      "kit": "Monitor biométrico"
+    }
+  }
+]

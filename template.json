@@ -1,24 +1,216 @@
 {
   "Actor": {
-    "types": ["personagem", "clandestino", "lar", "ultraSentinela"],
+    "types": [
+      "personagem",
+      "clandestino",
+      "lar",
+      "ultraSentinela"
+    ],
     "templates": {
-      "pessoa": {"attributes": {"FOR": 1, "AGI": 1, "ROB": 1, "CAR": 1, "MOR": 1, "FIB": 1, "INT": 1, "RAC": 1, "VON": 1}, "health": {"value": 3, "max": 3}, "bpm": {"value": 60}, "path": "", "trail": "", "milestones": 0, "description": "", "bonds": "", "trauma": "", "skillBonus": 0, "equipmentBonus": 0},
-      "infra": {"resources": {"atmosfera": 3, "energia": 3, "estrutura": 3, "comunicacao": 3}, "supplies": {"pecas": 3, "racoes": 3, "medicamentos": 1}, "sectors": "", "incidents": "", "description": ""},
-      "sentinela": {"sync": 1, "armorName": "", "armorProtection": 0, "battery": {"value": 6, "max": 6}, "armorCharge": 0, "anchor": "", "conversionScar": ""},
-      "threat": {"health": {"value": 6, "max": 6}, "protection": 0, "attackDice": 3, "damage": 2, "clues": "", "countermeasures": "", "clock": {"value": 0, "max": 6}, "description": ""}
+      "pessoa": {
+        "attributes": {
+          "FOR": 1,
+          "AGI": 1,
+          "ROB": 1,
+          "CAR": 1,
+          "MOR": 1,
+          "FIB": 1,
+          "INT": 1,
+          "RAC": 1,
+          "VON": 1
+        },
+        "health": {
+          "value": 3,
+          "max": 3
+        },
+        "bpm": {
+          "value": 60
+        },
+        "path": "",
+        "trail": "",
+        "milestones": 0,
+        "description": "",
+        "bonds": "",
+        "trauma": "",
+        "skillBonus": 0,
+        "equipmentBonus": 0,
+        "skills": {
+          "FOR_0": 0,
+          "FOR_1": 0,
+          "FOR_2": 0,
+          "FOR_3": 0,
+          "FOR_4": 0,
+          "AGI_0": 0,
+          "AGI_1": 0,
+          "AGI_2": 0,
+          "AGI_3": 0,
+          "AGI_4": 0,
+          "ROB_0": 0,
+          "ROB_1": 0,
+          "ROB_2": 0,
+          "ROB_3": 0,
+          "ROB_4": 0,
+          "CAR_0": 0,
+          "CAR_1": 0,
+          "CAR_2": 0,
+          "CAR_3": 0,
+          "CAR_4": 0,
+          "MOR_0": 0,
+          "MOR_1": 0,
+          "MOR_2": 0,
+          "MOR_3": 0,
+          "MOR_4": 0,
+          "FIB_0": 0,
+          "FIB_1": 0,
+          "FIB_2": 0,
+          "FIB_3": 0,
+          "FIB_4": 0,
+          "INT_0": 0,
+          "INT_1": 0,
+          "INT_2": 0,
+          "INT_3": 0,
+          "INT_4": 0,
+          "RAC_0": 0,
+          "RAC_1": 0,
+          "RAC_2": 0,
+          "RAC_3": 0,
+          "RAC_4": 0,
+          "VON_0": 0,
+          "VON_1": 0,
+          "VON_2": 0,
+          "VON_3": 0,
+          "VON_4": 0
+        }
+      },
+      "infra": {
+        "resources": {
+          "atmosfera": 3,
+          "energia": 3,
+          "estrutura": 3,
+          "comunicacao": 3
+        },
+        "supplies": {
+          "pecas": 3,
+          "racoes": 3,
+          "medicamentos": 1
+        },
+        "sectors": "",
+        "incidents": "",
+        "description": ""
+      },
+      "sentinela": {
+        "sync": 1,
+        "armorName": "",
+        "armorProtection": 0,
+        "battery": {
+          "value": 6,
+          "max": 6
+        },
+        "armorCharge": 0,
+        "anchor": "",
+        "conversionScar": ""
+      },
+      "threat": {
+        "health": {
+          "value": 6,
+          "max": 6
+        },
+        "protection": 0,
+        "attackDice": 3,
+        "damage": 2,
+        "clues": "",
+        "countermeasures": "",
+        "clock": {
+          "value": 0,
+          "max": 6
+        },
+        "description": ""
+      }
     },
-    "personagem": {"templates": ["pessoa"]},
-    "ultraSentinela": {"templates": ["pessoa", "sentinela"]},
-    "clandestino": {"templates": ["threat"]},
-    "lar": {"templates": ["infra"]}
+    "personagem": {
+      "templates": [
+        "pessoa"
+      ]
+    },
+    "ultraSentinela": {
+      "templates": [
+        "pessoa",
+        "sentinela"
+      ]
+    },
+    "clandestino": {
+      "templates": [
+        "threat"
+      ]
+    },
+    "lar": {
+      "templates": [
+        "infra"
+      ]
+    }
   },
   "Item": {
-    "types": ["arma", "equipamento", "talento", "armadura", "nota"],
-    "templates": {"base": {"description": "", "quantity": 1, "weight": 0}, "weapon": {"damage": 2, "range": "curto", "penetration": 0}, "armor": {"protection": 1, "batteryMax": 0}},
-    "arma": {"templates": ["base", "weapon"]},
-    "equipamento": {"templates": ["base"]},
-    "talento": {"templates": ["base"]},
-    "armadura": {"templates": ["base", "armor"]},
-    "nota": {"templates": ["base"]}
+    "types": [
+      "arma",
+      "equipamento",
+      "talento",
+      "armadura",
+      "nota",
+      "caminho",
+      "trilha"
+    ],
+    "templates": {
+      "base": {
+        "description": "",
+        "quantity": 1,
+        "weight": 0
+      },
+      "weapon": {
+        "damage": 2,
+        "range": "curto",
+        "penetration": 0
+      },
+      "armor": {
+        "protection": 1,
+        "batteryMax": 0
+      }
+    },
+    "arma": {
+      "templates": [
+        "base",
+        "weapon"
+      ]
+    },
+    "equipamento": {
+      "templates": [
+        "base"
+      ]
+    },
+    "talento": {
+      "templates": [
+        "base"
+      ]
+    },
+    "armadura": {
+      "templates": [
+        "base",
+        "armor"
+      ]
+    },
+    "nota": {
+      "templates": [
+        "base"
+      ]
+    },
+    "caminho": {
+      "templates": [
+        "base"
+      ]
+    },
+    "trilha": {
+      "templates": [
+        "base"
+      ]
+    }
   }
 }

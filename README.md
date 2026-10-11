@@ -1,4 +1,4 @@
-# CLANDESTINO para Foundry VTT — protótipo 0.1.0
+# CLANDESTINO para Foundry VTT — protótipo 0.1.1
 
 ## Instalação local
 

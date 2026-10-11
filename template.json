@@ -84,7 +84,9 @@
         "carry": {
           "base": 4,
           "max": 6
-        }
+        },
+        "background": "",
+        "vices": ""
       },
       "infra": {
         "resources": {

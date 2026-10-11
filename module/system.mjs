@@ -14,14 +14,40 @@ class ClanActorSheet extends foundry.applications.api.HandlebarsApplicationMixin
   const currentLoad=actor.items.filter(i=>!['nota','caminho','trilha','talento'].includes(i.type)).reduce((n,i)=>n+Math.max(0,Number(i.system.weight)||0)*Math.max(0,Number(i.system.quantity)||0),0);
   const loadStatus=currentLoad>6?'Acima do máximo':currentLoad>4?'Sobrecarregado: −1d6 em deslocamento exigente':'Carga normal';
   const paths=CLAN_PATHS.map(x=>({name:x.name,selected:data.path===x.name,description:x.system.description}));
-  const trails=CLAN_TRAILS.filter(x=>!data.path || x.system.path===data.path).map(x=>({name:x.name,selected:data.trail===x.name,description:x.system.description}));
+  const trails=CLAN_TRAILS.map(x=>({name:x.name,path:x.system.path||'',selected:data.trail===x.name,description:x.system.description}));
   const currentPath=CLAN_PATHS.find(x=>x.name===data.path);
   const currentTrail=CLAN_TRAILS.find(x=>x.name===data.trail);
   const skillGroups=Object.entries(ATTRIBUTES).map(([code,label])=>({code,label,skills:CLAN_SKILLS.filter(s=>s.attribute===code).map(s=>({...s,value:Number(data.skills?.[s.key]??0)}))}));
   return {...ctx,actor,system:data,isPerson:type==='personagem'||type==='ultraSentinela',isUS:type==='ultraSentinela',isMonster:type==='clandestino',isLar:type==='lar',attributes,items,paths,trails,currentPathDescription:currentPath?.system.description||"",currentTrailDescription:currentTrail?.system.description||"",currentLoad:Math.round(currentLoad*100)/100,loadStatus,skillGroups,bpmStatus:bpmState(data.bpm?.value??60),actorType:type};
  }
  async _onRender(context,options){await super._onRender(context,options);const root=this.element;const a=this.document;
- root.querySelectorAll('[data-field]').forEach(el=>el.addEventListener('change',async ev=>{if(!a.isOwner)return; const field=ev.currentTarget.dataset.field; let value=ev.currentTarget.value;if(ev.currentTarget.type==='number')value=Number(value);if(field==='path' && value!==a.system.path){await a.update({'system.path':value,'system.trail':''});return;}await a.update({[`system.${field}`]:value});}));
+ root.querySelectorAll('[data-field]').forEach(el=>el.addEventListener('change',async ev=>{
+  if(!a.isOwner)return;
+  const field=ev.currentTarget.dataset.field;
+  let value=ev.currentTarget.value;
+  if(ev.currentTarget.type==='number')value=Number(value);
+  if(field==='name'){
+    const trimmed=String(value).trim();
+    if(!trimmed){ui.notifications.warn('O nome do personagem não pode ficar vazio.');ev.currentTarget.value=a.name;return;}
+    await a.update({name:trimmed});return;
+  }
+  if(field==='path' && value!==a.system.path){
+    // Preserve the trail only when it is associated with the new path.
+    const active=CLAN_TRAILS.find(t=>t.name===a.system.trail);
+    await a.update({'system.path':value,'system.trail':active?.system?.path===value?a.system.trail:''});return;
+  }
+  if(field==='attributes.ROB' && (a.type==='personagem'||a.type==='ultraSentinela')){
+    const robustness=Math.max(1,Math.min(6,Number(value)||1));
+    const currentMax=Math.max(0,Number(a.system.health?.max)||0);
+    const currentValue=Math.max(0,Number(a.system.health?.value)||0);
+    const newMax=robustness*3;
+    // Keep existing damage: a wounded character remains wounded after ROB changes.
+    const damageTaken=Math.max(0,currentMax-currentValue);
+    const newValue=Math.max(0,Math.min(newMax,newMax-damageTaken));
+    await a.update({'system.attributes.ROB':robustness,'system.health.max':newMax,'system.health.value':newValue});return;
+  }
+  await a.update({[`system.${field}`]:value});
+}));
  root.querySelectorAll('[data-action-clan]').forEach(el=>el.addEventListener('click',async ev=>{ev.preventDefault();const action=ev.currentTarget.dataset.actionClan;if(action==='portrait')await this._choosePortrait();if(action==='test')await this._test();if(action==='attribute-roll')await this._test(ev.currentTarget.dataset.attribute);if(action==='skill-roll')await this._test(ev.currentTarget.dataset.attribute,ev.currentTarget.dataset.skill);if(action==='attack')await this._attack();if(action==='item-roll')await this._itemRoll(ev.currentTarget.dataset.itemId);if(action==='reload')await this._reload(ev.currentTarget.dataset.itemId);if(action==='consume')await this._consume(ev.currentTarget.dataset.itemId);if(action==='equip')await this._equip(ev.currentTarget.dataset.itemId);if(action==='rest')await this._adjustBpm(-10);if(action==='stress')await this._adjustBpm(10);if(action==='damage')await this._damage();if(action==='new-item')await a.createEmbeddedDocuments('Item',[{name:'Novo equipamento',type:'equipamento'}]);if(action==='item-edit')a.items.get(ev.currentTarget.dataset.itemId)?.sheet.render(true);if(action==='item-del'&&a.isOwner)await a.deleteEmbeddedDocuments('Item',[ev.currentTarget.dataset.itemId]);if(action==='roll-monster')await rollPool({actor:a,label:'Ataque da ameaça',attribute:'Ataque',dice:a.system.attackDice??3,difficulty:1});if(action==='sync')await this._sync();}));
  }
  async _choosePortrait(){

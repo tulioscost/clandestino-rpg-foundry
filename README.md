@@ -1,3 +1,5 @@
+> Atualização 0.4.2: compêndio de itens e armas agora inclui ícones únicos em silhueta.
+
 # CLANDESTINO para Foundry VTT — protótipo 0.1.1
 
 ## Instalação local

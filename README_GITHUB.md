@@ -1,3 +1,5 @@
+> Atualização 0.4.2: compêndio de itens e armas agora inclui ícones únicos em silhueta.
+
 # Instalação via GitHub — CLANDESTINO Foundry VTT
 
 1. Crie um repositório **público** chamado `clandestino-rpg-foundry` no GitHub.

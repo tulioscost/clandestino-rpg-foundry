@@ -1,0 +1,24 @@
+{
+  "Actor": {
+    "types": ["personagem", "clandestino", "lar", "ultraSentinela"],
+    "templates": {
+      "pessoa": {"attributes": {"FOR": 1, "AGI": 1, "ROB": 1, "CAR": 1, "MOR": 1, "FIB": 1, "INT": 1, "RAC": 1, "VON": 1}, "health": {"value": 3, "max": 3}, "bpm": {"value": 60}, "path": "", "trail": "", "milestones": 0, "description": "", "bonds": "", "trauma": "", "skillBonus": 0, "equipmentBonus": 0},
+      "infra": {"resources": {"atmosfera": 3, "energia": 3, "estrutura": 3, "comunicacao": 3}, "supplies": {"pecas": 3, "racoes": 3, "medicamentos": 1}, "sectors": "", "incidents": "", "description": ""},
+      "sentinela": {"sync": 1, "armorName": "", "armorProtection": 0, "battery": {"value": 6, "max": 6}, "armorCharge": 0, "anchor": "", "conversionScar": ""},
+      "threat": {"health": {"value": 6, "max": 6}, "protection": 0, "attackDice": 3, "damage": 2, "clues": "", "countermeasures": "", "clock": {"value": 0, "max": 6}, "description": ""}
+    },
+    "personagem": {"templates": ["pessoa"]},
+    "ultraSentinela": {"templates": ["pessoa", "sentinela"]},
+    "clandestino": {"templates": ["threat"]},
+    "lar": {"templates": ["infra"]}
+  },
+  "Item": {
+    "types": ["arma", "equipamento", "talento", "armadura", "nota"],
+    "templates": {"base": {"description": "", "quantity": 1, "weight": 0}, "weapon": {"damage": 2, "range": "curto", "penetration": 0}, "armor": {"protection": 1, "batteryMax": 0}},
+    "arma": {"templates": ["base", "weapon"]},
+    "equipamento": {"templates": ["base"]},
+    "talento": {"templates": ["base"]},
+    "armadura": {"templates": ["base", "armor"]},
+    "nota": {"templates": ["base"]}
+  }
+}

@@ -1,8 +1,8 @@
 {
   "id": "clandestino-rpg-foundry",
   "title": "CLANDESTINO — Horror Espacial",
-  "description": "CLANDESTINO VTT: compêndios de Talentos e Marcos, campo de Talentos na ficha e comandos ao lado do cabeçalho.",
-  "version": "0.6.1",
+  "description": "CLANDESTINO VTT: capa oficial integrada ao sistema e compêndio de Talentos expandido com todas as Trilhas e patamares.",
+  "version": "0.6.2",
   "authors": [
     {
       "name": "Adaptação digital experimental — baseado em CLANDESTINO, de Túlio Costa"
@@ -26,5 +26,12 @@
   "secondaryTokenAttribute": "bpm",
   "url": "https://github.com/tulioscost/clandestino-rpg-foundry",
   "manifest": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/latest/download/system.json",
-  "download": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/download/v0.6.1/clandestino-rpg-foundry.zip"
+  "download": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/download/v0.6.2/clandestino-rpg-foundry.zip",
+  "media": [
+    {
+      "type": "cover",
+      "url": "systems/clandestino-rpg-foundry/assets/cover/system-cover.png",
+      "caption": "CLANDESTINO — Horror Espacial"
+    }
+  ]
 }

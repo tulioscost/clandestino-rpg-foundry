@@ -47,3 +47,8 @@ Base editorial: CLANDESTINO 4.6, regras de 5/6, limite seis dados, BPM e Lar; su
 - O pacote experimental ainda não inclui compêndios, mapas de aventura, efeitos automáticos de todos os talentos ou integração com sistemas de iluminação/fog.
 - O valor inicial de PV é definido por ficha de criação; confira `PV = ROB × 3` ao editar ROB. O valor de BPM inicial é `max(50, 70 - 5 × FIB)` e deve ser ajustado na criação.
 - Para publicar em repositório e instalar via URL, hospede o `system.json` e um ZIP em endereço permanente e preencha `manifest`/`download` no JSON.
+
+
+## v0.6.2
+- Integra imagem de capa oficial do sistema para exibição no Foundry.
+- Expande o compêndio **Talentos — Referência** para incluir talentos iniciais e talentos por patamar das 12 Trilhas.

@@ -19,3 +19,8 @@ O `system.json` da raiz contém URLs-exemplo, mas a automação gera a versão r
 Para publicar atualizações: altere a versão no `system.json` da raiz e publique nova tag como `v0.2.0`. A URL do manifesto continua estável.
 
 **Compatibilidade**: estrutura preparada para Foundry V13; não foi testada em instalação real.
+
+
+## v0.6.2
+- Capa do sistema integrada ao pacote.
+- Compêndio de talentos preenchido com entradas de referência de todas as Trilhas e patamares.

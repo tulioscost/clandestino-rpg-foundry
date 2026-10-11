@@ -1,3 +1,5 @@
+> v0.4.3: descrições individuais de 96 registros do compêndio de itens e armas.
+
 > Atualização 0.4.2: compêndio de itens e armas agora inclui ícones únicos em silhueta.
 
 # Instalação via GitHub — CLANDESTINO Foundry VTT

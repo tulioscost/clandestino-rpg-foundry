@@ -101,7 +101,8 @@
           "VON": 0
         },
         "activeTalents": [],
-        "activeConditions": []
+        "activeConditions": [],
+        "origin": "Humano"
       },
       "infra": {
         "resources": {

@@ -1,16 +1,16 @@
 {
   "id": "clandestino-rpg-foundry",
   "title": "CLANDESTINO — Horror Espacial",
-  "description": "Playtest #1: ficha responsiva, trilhas dependentes do Caminho, inventário agrupado, carga 6+FOR e livro de regras por capítulos.",
-  "version": "0.5.0",
+  "description": "Foundry VTT 14.368: solicitação de testes, escambo consentido, layout corrigido e botões no cabeçalho.",
+  "version": "0.6.0",
   "authors": [
     {
       "name": "Adaptação digital experimental — baseado em CLANDESTINO, de Túlio Costa"
     }
   ],
   "compatibility": {
-    "minimum": "13",
-    "verified": "13"
+    "minimum": "14",
+    "verified": "14.368"
   },
   "esmodules": [
     "module/system.mjs",
@@ -19,12 +19,12 @@
   "styles": [
     "styles/clandestino.css"
   ],
-  "socket": false,
+  "socket": true,
   "gridDistance": 1,
   "gridUnits": "m",
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "bpm",
   "url": "https://github.com/tulioscost/clandestino-rpg-foundry",
   "manifest": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/latest/download/system.json",
-  "download": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/download/v0.5.0/clandestino-rpg-foundry.zip"
+  "download": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/download/v0.6.0/clandestino-rpg-foundry.zip"
 }

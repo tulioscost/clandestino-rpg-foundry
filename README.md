@@ -60,5 +60,23 @@ Base editorial: CLANDESTINO 4.6, regras de 5/6, limite seis dados, BPM e Lar; su
 - Overlay de pausa traduzido para `JOGO PARADO` com símbolo pulsante personalizado.
 
 
-## v0.6.10
+## v0.6.11
 - Revisão de nomes em compêndios e livro digital. Migração segura das Trilhas e Talentos existentes.
+
+## Módulos necessários
+
+Este sistema requer os módulos abaixo ativados no Foundry VTT:
+
+- Dice Tray (`dice-calculator`)
+- Dice So Nice! (`dice-so-nice`)
+- Chat Commands (`_chatcommands`)
+- Global Progress Clocks (`global-progress-clocks`)
+
+### Integração do dado CLANDESTINO
+
+Quando o módulo **Dice So Nice!** estiver ativo, o sistema registra automaticamente um preset de **d6** chamado **CLANDESTINO — Neon**, permitindo ao usuário selecioná-lo nas configurações do próprio Dice So Nice. O lado **6** utiliza o símbolo triangular oficial do sistema.
+
+
+
+## v0.6.12
+Ajustes de legibilidade e responsividade; o dado CLANDESTINO é opcional nas preferências do Dice So Nice, sem alteração forçada das escolhas individuais.

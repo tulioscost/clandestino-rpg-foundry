@@ -24,3 +24,13 @@ Para publicar atualizações: altere a versão no `system.json` da raiz e publiq
 ## v0.6.2
 - Capa do sistema integrada ao pacote.
 - Compêndio de talentos preenchido com entradas de referência de todas as Trilhas e patamares.
+
+
+## v0.6.9
+- Talentos e Condições em dropdown na ficha.
+- Talentos limitados pela Trilha selecionada.
+- Overlay de pausa traduzido para `JOGO PARADO` com símbolo pulsante personalizado.
+
+
+## v0.6.10
+- Revisão de nomes em compêndios e livro digital. Migração segura das Trilhas e Talentos existentes.

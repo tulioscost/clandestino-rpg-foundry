@@ -52,3 +52,13 @@ Base editorial: CLANDESTINO 4.6, regras de 5/6, limite seis dados, BPM e Lar; su
 ## v0.6.2
 - Integra imagem de capa oficial do sistema para exibição no Foundry.
 - Expande o compêndio **Talentos — Referência** para incluir talentos iniciais e talentos por patamar das 12 Trilhas.
+
+
+## v0.6.9
+- Talentos e Condições em dropdown na ficha.
+- Talentos limitados pela Trilha selecionada.
+- Overlay de pausa traduzido para `JOGO PARADO` com símbolo pulsante personalizado.
+
+
+## v0.6.10
+- Revisão de nomes em compêndios e livro digital. Migração segura das Trilhas e Talentos existentes.

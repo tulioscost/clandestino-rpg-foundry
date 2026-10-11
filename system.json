@@ -1,8 +1,8 @@
 {
   "id": "clandestino-rpg-foundry",
   "title": "CLANDESTINO — Horror Espacial",
-  "description": "CLANDESTINO VTT: capa oficial integrada ao sistema e compêndio de Talentos expandido com todas as Trilhas e patamares.",
-  "version": "0.6.2",
+  "description": "CLANDESTINO VTT: Livro 5.0 pesquisável, teste geral do Narrador no chat e comunicados de IA com tipografia Extros Backstage.",
+  "version": "0.6.5",
   "authors": [
     {
       "name": "Adaptação digital experimental — baseado em CLANDESTINO, de Túlio Costa"
@@ -14,7 +14,8 @@
   },
   "esmodules": [
     "module/system.mjs",
-    "module/compendiums.mjs"
+    "module/compendiums.mjs",
+    "module/music.mjs"
   ],
   "styles": [
     "styles/clandestino.css"
@@ -26,7 +27,7 @@
   "secondaryTokenAttribute": "bpm",
   "url": "https://github.com/tulioscost/clandestino-rpg-foundry",
   "manifest": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/latest/download/system.json",
-  "download": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/download/v0.6.2/clandestino-rpg-foundry.zip",
+  "download": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/download/v0.6.5/clandestino-rpg-foundry.zip",
   "media": [
     {
       "type": "cover",

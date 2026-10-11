@@ -2,7 +2,7 @@
 
 ## Instalação local
 
-1. Descompacte a pasta `clandestino-rpg` em `FoundryVTT/Data/systems/` (a pasta deve conter `system.json`).
+1. Descompacte a pasta `clandestino-rpg-foundry` em `FoundryVTT/Data/systems/` (a pasta deve conter `system.json`).
 2. Reinicie o Foundry VTT.
 3. Crie um Mundo e selecione o sistema **CLANDESTINO — Horror Espacial**.
 4. Crie Atores dos tipos `personagem`, `clandestino`, `lar` ou `ultraSentinela`.

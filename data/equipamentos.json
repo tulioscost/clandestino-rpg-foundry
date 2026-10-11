@@ -353,5 +353,716 @@
       "weight": 1,
       "quantity": 1
     }
+  },
+  {
+    "name": "Revólver de Serviço M-6",
+    "type": "arma",
+    "system": {
+      "description": "Equipamento de combate retrofuturista. Características propostas para o suplemento digital v0.3.0.",
+      "damage": 2,
+      "range": "curto",
+      "weight": 1,
+      "quantity": 1,
+      "ammoType": "balas-leves",
+      "magazineSize": 6,
+      "ammoLoaded": 6,
+      "ammoPerShot": 1,
+      "penetration": 0
+    }
+  },
+  {
+    "name": "Pistola de Colônia C-9",
+    "type": "arma",
+    "system": {
+      "description": "Equipamento de combate retrofuturista. Características propostas para o suplemento digital v0.3.0.",
+      "damage": 2,
+      "range": "curto",
+      "weight": 1,
+      "quantity": 1,
+      "ammoType": "balas-leves",
+      "magazineSize": 12,
+      "ammoLoaded": 12,
+      "ammoPerShot": 1,
+      "penetration": 0
+    }
+  },
+  {
+    "name": "Pistola Industrial P-14",
+    "type": "arma",
+    "system": {
+      "description": "Equipamento de combate retrofuturista. Características propostas para o suplemento digital v0.3.0.",
+      "damage": 3,
+      "range": "curto",
+      "weight": 1,
+      "quantity": 1,
+      "ammoType": "balas-pesadas",
+      "magazineSize": 8,
+      "ammoLoaded": 8,
+      "ammoPerShot": 1,
+      "penetration": 0
+    }
+  },
+  {
+    "name": "Pistola Silenciada S-3",
+    "type": "arma",
+    "system": {
+      "description": "Equipamento de combate retrofuturista. Características propostas para o suplemento digital v0.3.0.",
+      "damage": 2,
+      "range": "curto",
+      "weight": 1,
+      "quantity": 1,
+      "ammoType": "balas-leves",
+      "magazineSize": 10,
+      "ammoLoaded": 10,
+      "ammoPerShot": 1,
+      "penetration": 0
+    }
+  },
+  {
+    "name": "Pistola Sinalizadora F-1",
+    "type": "arma",
+    "system": {
+      "description": "Equipamento de combate retrofuturista. Características propostas para o suplemento digital v0.3.0.",
+      "damage": 1,
+      "range": "curto",
+      "weight": 1,
+      "quantity": 1,
+      "ammoType": "sinalizadores",
+      "magazineSize": 1,
+      "ammoLoaded": 1,
+      "ammoPerShot": 1,
+      "penetration": 0
+    }
+  },
+  {
+    "name": "Submetralhadora da Doca SM-22",
+    "type": "arma",
+    "system": {
+      "description": "Equipamento de combate retrofuturista. Características propostas para o suplemento digital v0.3.0.",
+      "damage": 2,
+      "range": "médio",
+      "weight": 2,
+      "quantity": 1,
+      "ammoType": "balas-leves",
+      "magazineSize": 24,
+      "ammoLoaded": 24,
+      "ammoPerShot": 1,
+      "penetration": 0
+    }
+  },
+  {
+    "name": "Carabina de Segurança K-4",
+    "type": "arma",
+    "system": {
+      "description": "Equipamento de combate retrofuturista. Características propostas para o suplemento digital v0.3.0.",
+      "damage": 3,
+      "range": "médio",
+      "weight": 2,
+      "quantity": 1,
+      "ammoType": "balas-pesadas",
+      "magazineSize": 20,
+      "ammoLoaded": 20,
+      "ammoPerShot": 1,
+      "penetration": 0
+    }
+  },
+  {
+    "name": "Fuzil Modular da Frota A-7",
+    "type": "arma",
+    "system": {
+      "description": "Equipamento de combate retrofuturista. Características propostas para o suplemento digital v0.3.0.",
+      "damage": 3,
+      "range": "longo",
+      "weight": 2,
+      "quantity": 1,
+      "ammoType": "balas-fuzil",
+      "magazineSize": 30,
+      "ammoLoaded": 30,
+      "ammoPerShot": 1,
+      "penetration": 0
+    }
+  },
+  {
+    "name": "Fuzil de Assalto R-88",
+    "type": "arma",
+    "system": {
+      "description": "Equipamento de combate retrofuturista. Características propostas para o suplemento digital v0.3.0.",
+      "damage": 3,
+      "range": "longo",
+      "weight": 2,
+      "quantity": 1,
+      "ammoType": "balas-fuzil",
+      "magazineSize": 24,
+      "ammoLoaded": 24,
+      "ammoPerShot": 1,
+      "penetration": 0
+    }
+  },
+  {
+    "name": "Fuzil de Precisão M-90",
+    "type": "arma",
+    "system": {
+      "description": "Equipamento de combate retrofuturista. Características propostas para o suplemento digital v0.3.0.",
+      "damage": 4,
+      "range": "longo",
+      "weight": 2,
+      "quantity": 1,
+      "ammoType": "balas-fuzil",
+      "magazineSize": 5,
+      "ammoLoaded": 5,
+      "ammoPerShot": 1,
+      "penetration": 0
+    }
+  },
+  {
+    "name": "Escopeta de Corredor SG-2",
+    "type": "arma",
+    "system": {
+      "description": "Equipamento de combate retrofuturista. Características propostas para o suplemento digital v0.3.0.",
+      "damage": 4,
+      "range": "curto",
+      "weight": 2,
+      "quantity": 1,
+      "ammoType": "cartuchos",
+      "magazineSize": 6,
+      "ammoLoaded": 6,
+      "ammoPerShot": 1,
+      "penetration": 0
+    }
+  },
+  {
+    "name": "Escopeta Serrada E-4",
+    "type": "arma",
+    "system": {
+      "description": "Equipamento de combate retrofuturista. Características propostas para o suplemento digital v0.3.0.",
+      "damage": 3,
+      "range": "curto",
+      "weight": 1,
+      "quantity": 1,
+      "ammoType": "cartuchos",
+      "magazineSize": 2,
+      "ammoLoaded": 2,
+      "ammoPerShot": 1,
+      "penetration": 0
+    }
+  },
+  {
+    "name": "Metralhadora de Suporte LMG-5",
+    "type": "arma",
+    "system": {
+      "description": "Equipamento de combate retrofuturista. Características propostas para o suplemento digital v0.3.0.",
+      "damage": 4,
+      "range": "longo",
+      "weight": 3,
+      "quantity": 1,
+      "ammoType": "balas-fuzil",
+      "magazineSize": 50,
+      "ammoLoaded": 50,
+      "ammoPerShot": 3,
+      "penetration": 0
+    }
+  },
+  {
+    "name": "Lançador de Pregos Hidráulico",
+    "type": "arma",
+    "system": {
+      "description": "Equipamento de combate retrofuturista. Características propostas para o suplemento digital v0.3.0.",
+      "damage": 3,
+      "range": "curto",
+      "weight": 2,
+      "quantity": 1,
+      "ammoType": "pregos",
+      "magazineSize": 10,
+      "ammoLoaded": 10,
+      "ammoPerShot": 1,
+      "penetration": 0
+    }
+  },
+  {
+    "name": "Arpão de Salvamento H-2",
+    "type": "arma",
+    "system": {
+      "description": "Equipamento de combate retrofuturista. Características propostas para o suplemento digital v0.3.0.",
+      "damage": 3,
+      "range": "médio",
+      "weight": 2,
+      "quantity": 1,
+      "ammoType": "arpoes",
+      "magazineSize": 1,
+      "ammoLoaded": 1,
+      "ammoPerShot": 1,
+      "penetration": 0
+    }
+  },
+  {
+    "name": "Pistola de Choque T-12",
+    "type": "arma",
+    "system": {
+      "description": "Equipamento de combate retrofuturista. Características propostas para o suplemento digital v0.3.0.",
+      "damage": 1,
+      "range": "curto",
+      "weight": 1,
+      "quantity": 1,
+      "ammoType": "celulas",
+      "magazineSize": 6,
+      "ammoLoaded": 6,
+      "ammoPerShot": 1,
+      "penetration": 0
+    }
+  },
+  {
+    "name": "Projetor de Plasma P-6",
+    "type": "arma",
+    "system": {
+      "description": "Equipamento de combate retrofuturista. Características propostas para o suplemento digital v0.3.0.",
+      "damage": 4,
+      "range": "curto",
+      "weight": 3,
+      "quantity": 1,
+      "ammoType": "celulas",
+      "magazineSize": 4,
+      "ammoLoaded": 4,
+      "ammoPerShot": 1,
+      "penetration": 0
+    }
+  },
+  {
+    "name": "Cortador Laser de Combate",
+    "type": "arma",
+    "system": {
+      "description": "Equipamento de combate retrofuturista. Características propostas para o suplemento digital v0.3.0.",
+      "damage": 3,
+      "range": "curto",
+      "weight": 2,
+      "quantity": 1,
+      "ammoType": "celulas",
+      "magazineSize": 8,
+      "ammoLoaded": 8,
+      "ammoPerShot": 1,
+      "penetration": 0
+    }
+  },
+  {
+    "name": "Incinerador de Contenção IF-3",
+    "type": "arma",
+    "system": {
+      "description": "Equipamento de combate retrofuturista. Características propostas para o suplemento digital v0.3.0.",
+      "damage": 4,
+      "range": "curto",
+      "weight": 3,
+      "quantity": 1,
+      "ammoType": "gel",
+      "magazineSize": 6,
+      "ammoLoaded": 6,
+      "ammoPerShot": 1,
+      "penetration": 0
+    }
+  },
+  {
+    "name": "Rifle de Dardos Químicos Q-1",
+    "type": "arma",
+    "system": {
+      "description": "Equipamento de combate retrofuturista. Características propostas para o suplemento digital v0.3.0.",
+      "damage": 1,
+      "range": "médio",
+      "weight": 2,
+      "quantity": 1,
+      "ammoType": "dardos",
+      "magazineSize": 6,
+      "ammoLoaded": 6,
+      "ammoPerShot": 1,
+      "penetration": 0
+    }
+  },
+  {
+    "name": "Macacão de Tripulação Reforçado",
+    "type": "armadura",
+    "system": {
+      "description": "Armadura retrofuturista; Proteção e Carga propostas para v0.3.0.",
+      "protection": 1,
+      "weight": 1,
+      "quantity": 1,
+      "equipped": false
+    }
+  },
+  {
+    "name": "Colete Cerâmico Colonial",
+    "type": "armadura",
+    "system": {
+      "description": "Armadura retrofuturista; Proteção e Carga propostas para v0.3.0.",
+      "protection": 2,
+      "weight": 2,
+      "quantity": 1,
+      "equipped": false
+    }
+  },
+  {
+    "name": "Traje EVA Blindado",
+    "type": "armadura",
+    "system": {
+      "description": "Armadura retrofuturista; Proteção e Carga propostas para v0.3.0.",
+      "protection": 2,
+      "weight": 3,
+      "quantity": 1,
+      "equipped": false
+    }
+  },
+  {
+    "name": "Armadura de Segurança Portuária",
+    "type": "armadura",
+    "system": {
+      "description": "Armadura retrofuturista; Proteção e Carga propostas para v0.3.0.",
+      "protection": 2,
+      "weight": 2,
+      "quantity": 1,
+      "equipped": false
+    }
+  },
+  {
+    "name": "Exotraje de Resgate Industrial",
+    "type": "armadura",
+    "system": {
+      "description": "Armadura retrofuturista; Proteção e Carga propostas para v0.3.0.",
+      "protection": 3,
+      "weight": 3,
+      "quantity": 1,
+      "equipped": false
+    }
+  },
+  {
+    "name": "Traje de Contenção Química",
+    "type": "armadura",
+    "system": {
+      "description": "Armadura retrofuturista; Proteção e Carga propostas para v0.3.0.",
+      "protection": 1,
+      "weight": 2,
+      "quantity": 1,
+      "equipped": false
+    }
+  },
+  {
+    "name": "Ração de Sobrevivência",
+    "type": "consumivel",
+    "system": {
+      "description": "Uma refeição em missão; consumo manual confirmado na ficha.",
+      "weight": 0,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Água Selada de Emergência",
+    "type": "consumivel",
+    "system": {
+      "description": "Hidratação em área comprometida; consumo manual confirmado na ficha.",
+      "weight": 0,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Gel Nutritivo Isotônico",
+    "type": "consumivel",
+    "system": {
+      "description": "Suporte alimentar concentrado; consumo manual confirmado na ficha.",
+      "weight": 0,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Injetor de Analgésico",
+    "type": "consumivel",
+    "system": {
+      "description": "Ameniza dor; decisão do Narrador; consumo manual confirmado na ficha.",
+      "weight": 0,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Curativo Hemostático",
+    "type": "consumivel",
+    "system": {
+      "description": "Estanca sangramento superficial; consumo manual confirmado na ficha.",
+      "weight": 0,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Kit de Sutura Descartável",
+    "type": "consumivel",
+    "system": {
+      "description": "Estabilização médica; consumo manual confirmado na ficha.",
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Ampola Antisséptica",
+    "type": "consumivel",
+    "system": {
+      "description": "Limpeza de ferimento; consumo manual confirmado na ficha.",
+      "weight": 0,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Adesivo de Pele Sintética",
+    "type": "consumivel",
+    "system": {
+      "description": "Selagem temporária de corte; consumo manual confirmado na ficha.",
+      "weight": 0,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Antídoto Experimental AX-4",
+    "type": "consumivel",
+    "system": {
+      "description": "Neutralização conforme agente; consumo manual confirmado na ficha.",
+      "weight": 0,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Estimulante de Vigília",
+    "type": "consumivel",
+    "system": {
+      "description": "Evita sonolência por uma cena, sujeito a consequências; consumo manual confirmado na ficha.",
+      "weight": 0,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Sedativo de Emergência",
+    "type": "consumivel",
+    "system": {
+      "description": "Reduz agitação sob avaliação médica; consumo manual confirmado na ficha.",
+      "weight": 0,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Cartucho de Oxigênio",
+    "type": "consumivel",
+    "system": {
+      "description": "Reposição de oxigênio de equipamento compatível; consumo manual confirmado na ficha.",
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Filtro Respiratório Selado",
+    "type": "consumivel",
+    "system": {
+      "description": "Substituição de filtro; consumo manual confirmado na ficha.",
+      "weight": 0,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Espuma de Vedação Rápida",
+    "type": "consumivel",
+    "system": {
+      "description": "Veda rachaduras pequenas; consumo manual confirmado na ficha.",
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Tubo de Selante Cerâmico",
+    "type": "consumivel",
+    "system": {
+      "description": "Reparo emergencial; consumo manual confirmado na ficha.",
+      "weight": 0,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Bateria Portátil Padronizada",
+    "type": "consumivel",
+    "system": {
+      "description": "Energia de dispositivo compatível; consumo manual confirmado na ficha.",
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Cápsula Luminescente",
+    "type": "consumivel",
+    "system": {
+      "description": "Luz química descartável; consumo manual confirmado na ficha.",
+      "weight": 0,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Sinalizador de Resgate",
+    "type": "consumivel",
+    "system": {
+      "description": "Emite marca de localização; consumo manual confirmado na ficha.",
+      "weight": 0,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Carga de Fumaça Fria",
+    "type": "consumivel",
+    "system": {
+      "description": "Obscurece corredor por uma cena; consumo manual confirmado na ficha.",
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Granada de Luz de Emergência",
+    "type": "consumivel",
+    "system": {
+      "description": "Clarão localizado; Narrador define efeitos; consumo manual confirmado na ficha.",
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Purificador de Água Individual",
+    "type": "consumivel",
+    "system": {
+      "description": "Trata pequena reserva; consumo manual confirmado na ficha.",
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Descontaminante de Superfície",
+    "type": "consumivel",
+    "system": {
+      "description": "Remove resíduos superficiais; consumo manual confirmado na ficha.",
+      "weight": 1,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Ampola de Reagente Biométrico",
+    "type": "consumivel",
+    "system": {
+      "description": "Coleta ou revela traços orgânicos; consumo manual confirmado na ficha.",
+      "weight": 0,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Cartucho de Impressora de Campo",
+    "type": "consumivel",
+    "system": {
+      "description": "Imprime etiquetas e documentos; consumo manual confirmado na ficha.",
+      "weight": 0,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Manta Térmica Compacta",
+    "type": "consumivel",
+    "system": {
+      "description": "Proteção térmica temporária; consumo manual confirmado na ficha.",
+      "weight": 0,
+      "quantity": 1
+    }
+  },
+  {
+    "name": "Caixa de munição 9 mm",
+    "type": "municao",
+    "system": {
+      "description": "Munição compatível com armas do tipo balas-leves; quantidade em unidades de disparo.",
+      "ammoType": "balas-leves",
+      "quantity": 36,
+      "weight": 0.0278
+    }
+  },
+  {
+    "name": "Caixa de munição pesada",
+    "type": "municao",
+    "system": {
+      "description": "Munição compatível com armas do tipo balas-pesadas; quantidade em unidades de disparo.",
+      "ammoType": "balas-pesadas",
+      "quantity": 24,
+      "weight": 0.0417
+    }
+  },
+  {
+    "name": "Cinta de munição de fuzil",
+    "type": "municao",
+    "system": {
+      "description": "Munição compatível com armas do tipo balas-fuzil; quantidade em unidades de disparo.",
+      "ammoType": "balas-fuzil",
+      "quantity": 60,
+      "weight": 0.0333
+    }
+  },
+  {
+    "name": "Caixa de cartuchos de escopeta",
+    "type": "municao",
+    "system": {
+      "description": "Munição compatível com armas do tipo cartuchos; quantidade em unidades de disparo.",
+      "ammoType": "cartuchos",
+      "quantity": 16,
+      "weight": 0.0625
+    }
+  },
+  {
+    "name": "Estojo de sinalizadores",
+    "type": "municao",
+    "system": {
+      "description": "Munição compatível com armas do tipo sinalizadores; quantidade em unidades de disparo.",
+      "ammoType": "sinalizadores",
+      "quantity": 6,
+      "weight": 0.1667
+    }
+  },
+  {
+    "name": "Cassete de pregos industriais",
+    "type": "municao",
+    "system": {
+      "description": "Munição compatível com armas do tipo pregos; quantidade em unidades de disparo.",
+      "ammoType": "pregos",
+      "quantity": 30,
+      "weight": 0.0333
+    }
+  },
+  {
+    "name": "Conjunto de arpões",
+    "type": "municao",
+    "system": {
+      "description": "Munição compatível com armas do tipo arpoes; quantidade em unidades de disparo.",
+      "ammoType": "arpoes",
+      "quantity": 5,
+      "weight": 0.4
+    }
+  },
+  {
+    "name": "Células energéticas",
+    "type": "municao",
+    "system": {
+      "description": "Munição compatível com armas do tipo celulas; quantidade em unidades de disparo.",
+      "ammoType": "celulas",
+      "quantity": 16,
+      "weight": 0.0625
+    }
+  },
+  {
+    "name": "Refil de gel incendiário",
+    "type": "municao",
+    "system": {
+      "description": "Munição compatível com armas do tipo gel; quantidade em unidades de disparo.",
+      "ammoType": "gel",
+      "quantity": 12,
+      "weight": 0.1667
+    }
+  },
+  {
+    "name": "Cartuchos de dardos químicos",
+    "type": "municao",
+    "system": {
+      "description": "Munição compatível com armas do tipo dardos; quantidade em unidades de disparo.",
+      "ammoType": "dardos",
+      "quantity": 12,
+      "weight": 0.0833
+    }
   }
 ]

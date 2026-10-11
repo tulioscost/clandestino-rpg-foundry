@@ -8,3 +8,6 @@
 
 /* 0.2 — atributos clicáveis e perícias */
 .clan-attrs label{min-width:0}.clandestino .clan-roll-attr{font:bold 12px monospace;background:#ac252e;color:white;border:1px solid #550f16;padding:5px 2px;width:100%;cursor:pointer}.clandestino .clan-roll-attr:hover{background:#df454a}.clan-skill-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.clan-skill-group{background:#fff9ed;border:1px solid #aa9b8c;padding:8px}.clan-skill-group h3{margin:0 0 7px;color:#a1262e;font:bold 13px sans-serif}.clan-skill-row{display:flex;align-items:center;gap:6px;margin:3px 0}.clandestino .clan-skill-row button{flex:1;text-align:left;background:#2a2c30;color:#fff;border:0;padding:6px;font:12px sans-serif;cursor:pointer}.clan-skill-row button:hover{background:#a3262f}.clan-skill-row input{flex:none;width:52px;text-align:center}.clan-hint{font-size:12px;color:#554e47}@media(max-width:620px){.clan-skill-grid{grid-template-columns:1fr}}
+
+/* 0.3 · inventário e carga */
+.clan-load{border-left:4px solid #b52b2b;background:#f8f4e9;padding:9px;display:flex;flex-direction:column;gap:3px;font:12px sans-serif}.clan-load span{font-weight:bold;color:#9f2630}.clan-load small{color:#5e5550}.clan-item-list li{flex-wrap:wrap}.clan-item-list li b{min-width:150px}.clan-item-list li span{white-space:nowrap}.clan-item-list li button{white-space:nowrap}

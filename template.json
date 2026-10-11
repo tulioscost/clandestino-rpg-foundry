@@ -80,6 +80,10 @@
           "VON_2": 0,
           "VON_3": 0,
           "VON_4": 0
+        },
+        "carry": {
+          "base": 4,
+          "max": 6
         }
       },
       "infra": {
@@ -157,7 +161,9 @@
       "armadura",
       "nota",
       "caminho",
-      "trilha"
+      "trilha",
+      "consumivel",
+      "municao"
     ],
     "templates": {
       "base": {
@@ -168,11 +174,19 @@
       "weapon": {
         "damage": 2,
         "range": "curto",
-        "penetration": 0
+        "penetration": 0,
+        "ammoType": "",
+        "ammoLoaded": 0,
+        "magazineSize": 0,
+        "ammoPerShot": 1
       },
       "armor": {
         "protection": 1,
-        "batteryMax": 0
+        "batteryMax": 0,
+        "equipped": false
+      },
+      "ammo": {
+        "ammoType": ""
       }
     },
     "arma": {
@@ -208,6 +222,17 @@
       ]
     },
     "trilha": {
+      "templates": [
+        "base"
+      ]
+    },
+    "municao": {
+      "templates": [
+        "base",
+        "ammo"
+      ]
+    },
+    "consumivel": {
       "templates": [
         "base"
       ]

@@ -6,3 +6,6 @@
 - Ficha passa a identificar PV máximos por ROB × 5; gerador já utilizava ROB × 5 e foi conferido.
 - Catálogo mecânico `data/regras-5-2-2.json` com referências das regras consolidadas do livro; catálogos narrativos preexistentes preservados. A conferência integral verbete por verbete não está concluída.
 - Teto de 10d6 preservado.
+
+## 0.6.42
+- Volume individual do áudio do Apocalipse no calendário para todos os participantes.

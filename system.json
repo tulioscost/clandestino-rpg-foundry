@@ -1,8 +1,8 @@
 {
   "id": "clandestino-rpg-foundry",
   "title": "CLANDESTINO — Horror Espacial",
-  "description": "Edição 5.2.2: ataques e itens com escolha de perícia, cálculo de reserva até 10d6 e PV iniciais ROB × 5.",
-  "version": "0.6.40",
+  "description": "Regulador individual de volume da música do Apocalipse, disponível para todos os participantes, sem alterar a contagem ou o volume dos demais.",
+  "version": "0.6.42",
   "authors": [
     {
       "name": "Adaptação digital experimental — baseado em CLANDESTINO, de Túlio Costa"
@@ -30,7 +30,7 @@
   "secondaryTokenAttribute": "bpm",
   "url": "https://github.com/tulioscost/clandestino-rpg-foundry",
   "manifest": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/latest/download/system.json",
-  "download": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/download/v0.6.40/clandestino-rpg-foundry.zip",
+  "download": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/download/v0.6.42/clandestino-rpg-foundry.zip",
   "media": [
     {
       "type": "cover",

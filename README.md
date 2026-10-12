@@ -1,86 +1,26 @@
-> v0.6.30: criador de tokens neon (4 cores), recorte de retrato e edição via VTTA Tokenizer. Consulte GUIA_TOKENIZER.md.
+# CLANDESTINO — Protocolo: Silêncio Absoluto | Sessão 01
 
-> v0.6.25: gerador de personagens agora inclui kit inicial, créditos e vícios/compulsões quando couber; ameaças do compêndio receberam retratos individuais.
+Módulo de aventura opcional, separado do sistema **clandestino-rpg-foundry**. Versão 1.0.0.
 
-> v0.4.3: descrições individuais de 96 registros do compêndio de itens e armas.
+## Conteúdo
+- Três cenas com mapas sem legendas: Hangar A-3, Sala de Controle A-3C e Guarita A-3G.
+- Grades de 1m, iluminação inicial, paredes externas e portas simples (editáveis no Foundry).
+- Cinco entradas de diário: guia e pistas, briefing, manifestos, Salvat e VIGÍLIA.
+- Macro **CLANDESTINO | Importar Sessão 01**, criada para o Narrador ao iniciar um Mundo.
 
-> Atualização 0.4.2: compêndio de itens e armas agora inclui ícones únicos em silhueta.
+## Instalação manual
+1. Extraia `clandestino-silencio-absoluto.zip` na pasta `FoundryVTT/Data/modules/`.
+2. A estrutura correta é `Data/modules/clandestino-silencio-absoluto/module.json`.
+3. Reinicie o Foundry, habilite o módulo no Mundo CLANDESTINO e execute a macro **CLANDESTINO | Importar Sessão 01**.
+4. **Não execute a importação duas vezes**, salvo se quiser duplicar os documentos.
+5. Revise permissões dos Journals, geometria das paredes, posição das portas, luzes e escala dos mapas. Ative manualmente a cena inicial.
 
-# CLANDESTINO para Foundry VTT — protótipo 0.1.1
+## Limitações conhecidas
+- Os mapas são **plantas estilizadas geradas especificamente para esta preparação**, não desenhos arquitetônicos idênticos à prancha ilustrativa da etapa anterior.
+- Há paredes de perímetro e portas de entrada, não paredes exaustivas de obstáculos internos, vidro ou todas as salas de suporte. O Narrador deve acrescentá-las com a ferramenta de paredes.
+- O módulo gera *scenes* e *journal entries*, mas não automatiza descobertas, gatilhos de aproximação, trilha sonora ou sincronização de cenas entre os personagens.
+- O manifesto final exige substituir o placeholder pelo nome do personagem escolhido.
+- O importador foi validado por sintaxe, JSON e integridade do ZIP, mas **não foi executado em um servidor Foundry V14.368**.
 
-## Instalação local
-
-1. Descompacte a pasta `clandestino-rpg-foundry` em `FoundryVTT/Data/systems/` (a pasta deve conter `system.json`).
-2. Reinicie o Foundry VTT.
-3. Crie um Mundo e selecione o sistema **CLANDESTINO — Horror Espacial**.
-4. Crie Atores dos tipos `personagem`, `clandestino`, `lar` ou `ultraSentinela`.
-
-**Alvo de API:** Foundry VTT 13. Esta versão não foi executada no aplicativo Foundry; valide em um mundo de teste antes de usar numa campanha real. Não há URL pública de manifesto.
-
-## Funcionalidades
-
-- Nove atributos oficiais; fichas e campos editáveis;
-- Rolagens `Nd6`: sucessos em 5/6; resultado 6 gera Ímpeto, utilizável apenas após sucesso;
-- Limite de 6 dados; dificuldades de 1 a 3;
-- BPM automático por faixas; lembrete de teste em crise; botões +10 / −10;
-- PV, Proteção, dano fixo, ataques com FOR/AGI;
-- Lar com Atmosfera, Energia, Estrutura e Comunicação (0–4);
-- Ficha Ultra Sentinela com Sincronia e bateria, como regra especial do suplemento;
-- Atores de ameaça com ataque configurável, pistas, contramedidas e relógio;
-- Itens de arma, armadura, equipamento, talento e nota.
-
-## Regras automatizadas vs. decisões do Narrador
-
-| Sistema | Automação |
-|---|---|
-| Pool de dados e Ímpetos | Automático |
-| Penalidade BPM | Opcional no teste; o operador decide se a ação é 'sob pressão' |
-| Dano de ataques | Base automático, conversão do Ímpeto e alvo dependem do Narrador |
-| Ferimentos críticos, crise e morte | Alerta e resolução manual |
-| Talentos e 12 Trilhas | Registrados como itens; ativação manual |
-| Contaminação, relógios e recursos | Gerenciados na ficha |
-| Sincronia Ultra Sentinela | Teste e +10 BPM após falha; demais consequências manuais |
-
-## Dados e terminologia
-
-Base editorial: CLANDESTINO 4.6, regras de 5/6, limite seis dados, BPM e Lar; suplemento Carne e Aço para US. Não inclui reproduções integrais das páginas, das artes ou da fonte comercial para redistribuição. Adicione seus próprios recursos visuais no Foundry.
-
-## Observações e limitações
-
-- O tipo de ator `clandestino` não pré-cadastra as 12 fichas canônicas porque seus dados completos demandam conferência individual; os campos ficam disponíveis para cadastro.
-- O pacote experimental ainda não inclui compêndios, mapas de aventura, efeitos automáticos de todos os talentos ou integração com sistemas de iluminação/fog.
-- O valor inicial de PV é definido por ficha de criação; confira `PV = ROB × 3` ao editar ROB. O valor de BPM inicial é `max(50, 70 - 5 × FIB)` e deve ser ajustado na criação.
-- Para publicar em repositório e instalar via URL, hospede o `system.json` e um ZIP em endereço permanente e preencha `manifest`/`download` no JSON.
-
-
-## v0.6.2
-- Integra imagem de capa oficial do sistema para exibição no Foundry.
-- Expande o compêndio **Talentos — Referência** para incluir talentos iniciais e talentos por patamar das 12 Trilhas.
-
-
-## v0.6.9
-- Talentos e Condições em dropdown na ficha.
-- Talentos limitados pela Trilha selecionada.
-- Overlay de pausa traduzido para `JOGO PARADO` com símbolo pulsante personalizado.
-
-
-## v0.6.11
-- Revisão de nomes em compêndios e livro digital. Migração segura das Trilhas e Talentos existentes.
-
-## Módulos necessários
-
-Este sistema requer os módulos abaixo ativados no Foundry VTT:
-
-- Dice Tray (`dice-calculator`)
-- Dice So Nice! (`dice-so-nice`)
-- Chat Commands (`_chatcommands`)
-- Global Progress Clocks (`global-progress-clocks`)
-
-### Integração do dado CLANDESTINO
-
-Quando o módulo **Dice So Nice!** estiver ativo, o sistema registra automaticamente um preset de **d6** chamado **CLANDESTINO — Neon**, permitindo ao usuário selecioná-lo nas configurações do próprio Dice So Nice. O lado **6** utiliza o símbolo triangular oficial do sistema.
-
-
-
-## v0.6.12
-Ajustes de legibilidade e responsividade; o dado CLANDESTINO é opcional nas preferências do Dice So Nice, sem alteração forçada das escolhas individuais.
+## Compatibilidade
+O manifesto declara Foundry v13 ou superior e marca a v14 como versão-alvo. Não distribui o sistema-base nem o Foundry.

@@ -1,0 +1,12 @@
+# Checklist — Sessão 01
+- [ ] Habilitar o sistema CLANDESTINO e o módulo da aventura.
+- [ ] Executar a macro de importação apenas uma vez.
+- [ ] Conferir escala: 1 quadrícula = 1 metro.
+- [ ] Revisar portas e linhas de visão em cada cena.
+- [ ] Adicionar paredes internas de armários, divisórias de vidro e passarela se necessário.
+- [ ] Conferir permissões dos Journals (manifesto revisado somente no encerramento).
+- [ ] Posicionar os cinco tokens na Andorinha.
+- [ ] Iniciar Calendário Terrestre em 17/08/2184 às 03:42 RT (ou data da campanha).
+- [ ] Lar VÉSPERA-9: Atmosfera 3/4, Energia 2/4, Estrutura 3/4, Comunicação 1/4.
+- [ ] Não ativar o Relógio do Apocalipse no início.
+- [ ] Selecionar o protagonista que terá o nome duplicado no manifesto final.

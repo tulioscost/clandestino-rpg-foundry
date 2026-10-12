@@ -1,3 +1,9 @@
+## v0.6.46 — Ficha e tipografia
+- Cabeçalho do personagem: Registro de Tripulante — [nome].
+- Solicitar teste: visível e executável somente pelo Narrador (regra pré-existente conferida).
+- Fonte Orbitron aplicada à ficha do ator, com fallback offline. A fonte é buscada no Google Fonts; o arquivo original da fonte não é redistribuído.
+- Preservados inventário responsivo, temas e regras mecânicas.
+
 ## v0.6.43
 - Contraste de tipografia, campos e menus nos modos claro e escuro do Foundry; cores de foco acessíveis.
 

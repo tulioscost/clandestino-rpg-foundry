@@ -4,7 +4,8 @@
       "personagem",
       "clandestino",
       "lar",
-      "ultraSentinela"
+      "ultraSentinela",
+      "npc"
     ],
     "templates": {
       "pessoa": {
@@ -176,6 +177,14 @@
       "templates": [
         "infra"
       ]
+    },
+    "npc": {
+      "templates": [
+        "pessoa"
+      ],
+      "role": "NPC",
+      "originStory": "",
+      "faction": ""
     }
   },
   "Item": {

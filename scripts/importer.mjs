@@ -63,6 +63,34 @@ function sceneData(s){const W=px(s.W),H=px(s.H);return {
  navigation:true,active:false,notes:[],flags:{[ID]:{[MODULE_FLAG]:key}},
  description:s.notes
 };}
+/** Recupera fundos das cenas importadas anteriormente, sem duplicar documentos. */
+async function repairSceneBackgrounds(){
+ if(!game.user.isGM){ui.notifications.warn("Somente o Narrador pode reparar cenas.");return;}
+ const report=[];
+ for(const spec of scenes){
+   const target=`${prefix}${spec.file}`;
+   // Imagens devem ser acessíveis pelo próprio servidor Foundry, não por um caminho local.
+   let available=false;
+   try{
+     const res=await fetch(target,{method:"GET",cache:"no-store"});
+     available=res.ok && (res.headers.get("content-type")||"").toLowerCase().includes("image");
+     if(res.ok && !available) available=(await res.blob()).type.startsWith("image/");
+   }catch(err){console.warn("CLANDESTINO | Falha ao consultar imagem",target,err);}
+   if(!available){
+     report.push(`${spec.name}: imagem indisponível (${target}). Confira a pasta assets/maps do módulo.`);
+     continue;
+   }
+   const matching=game.scenes.filter(scene=>scene.name===spec.name || scene.getFlag(ID,MODULE_FLAG)===key && scene.name.includes(spec.name.slice(5)));
+   if(!matching.length){report.push(`${spec.name}: cena ainda não importada.`);continue;}
+   for(const scene of matching){
+     try{
+       await scene.update({"background.src":target,width:px(spec.W),height:px(spec.H),"grid.size":R});
+       report.push(`${scene.name}: fundo restaurado.`);
+     }catch(err){console.error("CLANDESTINO | Não foi possível restaurar fundo",scene.name,err);report.push(`${scene.name}: erro ao atualizar a cena.`);}
+   }
+ }
+ new Dialog({title:"CLANDESTINO | Diagnóstico das imagens",content:`<div style="max-height:360px;overflow:auto"><p>${report.map(line=>esc(line)).join("</p><p>")}</p></div>`,buttons:{ok:{label:"Fechar"}}}).render(true);
+}
 async function importAdventure(){
  if(!game.user.isGM){ui.notifications.warn("Somente o Narrador pode importar a aventura.");return;}
  const already=game.scenes.some(s=>s.getFlag(ID,MODULE_FLAG)===key)||game.journal.some(j=>j.getFlag(ID,MODULE_FLAG)===key);
@@ -86,8 +114,12 @@ async function importAdventure(){
  }catch(err){console.error("CLANDESTINO | Falha na importação da aventura",err);ui.notifications.error("Falha ao importar aventura. Consulte o console e remova eventuais documentos parciais.");}
 }
 Hooks.once("ready",()=>{
- game.clandestinoAdventure01={importAdventure};
+ game.clandestinoAdventure01={importAdventure,repairSceneBackgrounds};
  if(!game.user.isGM)return;
+ if(!game.macros.some(m=>m.name==="CLANDESTINO | Reparar mapas da Sessão 01")){
+  Macro.create({name:"CLANDESTINO | Reparar mapas da Sessão 01",type:"script",img:"icons/svg/eye.svg",command:"await game.clandestinoAdventure01.repairSceneBackgrounds();"})
+  .catch(err=>console.warn("CLANDESTINO | Não foi possível criar macro de reparo",err));
+ }
  if(game.macros.some(m=>m.name==="CLANDESTINO | Importar Sessão 01"))return;
  Macro.create({name:"CLANDESTINO | Importar Sessão 01",type:"script",img:"icons/svg/book.svg",command:"await game.clandestinoAdventure01.importAdventure();"})
  .catch(err=>console.warn("CLANDESTINO | Não foi possível criar macro de importação",err));

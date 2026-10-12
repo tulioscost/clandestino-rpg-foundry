@@ -1,6 +1,8 @@
+> **v1.0.1:** se as cenas estiverem sem fundo, execute a macro **CLANDESTINO | Reparar mapas da Sessão 01**. Não reimporte a aventura.
+
 # CLANDESTINO — Protocolo: Silêncio Absoluto | Sessão 01
 
-Módulo de aventura opcional, separado do sistema **clandestino-rpg-foundry**. Versão 1.0.0.
+Módulo de aventura opcional, separado do sistema **clandestino-rpg-foundry**. Versão 1.0.1.
 
 ## Conteúdo
 - Três cenas com mapas sem legendas: Hangar A-3, Sala de Controle A-3C e Guarita A-3G.

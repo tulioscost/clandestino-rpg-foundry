@@ -1,12 +1,31 @@
 {
   "id": "clandestino-silencio-absoluto",
   "title": "CLANDESTINO | Protocolo: Silêncio Absoluto — Sessão 01",
-  "description": "Módulo de preparação da aventura O Sexto Passageiro: três cenas, iluminação, paredes iniciais, pistas e Journals do Narrador.",
-  "version": "1.0.0",
-  "authors": [{"name": "CLANDESTINO — adaptação de aventura"}],
-  "compatibility": {"minimum": "13", "verified": "14"},
-  "relationships": {"systems": [{"id": "clandestino-rpg-foundry", "type": "system", "compatibility": {"minimum": "0.6.31"}}]},
-  "esmodules": ["scripts/importer.mjs"],
-  "manifest": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/download/aventura01-v1.0.0/module.json",
-  "download": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/download/aventura01-v1.0.0/clandestino-silencio-absoluto.zip"
+  "description": "Correção dos fundos das cenas: macro de diagnóstico e restauração de mapas para cenas já importadas.",
+  "version": "1.0.1",
+  "authors": [
+    {
+      "name": "CLANDESTINO — adaptação de aventura"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "clandestino-rpg-foundry",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.6.31"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/importer.mjs"
+  ],
+  "manifest": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/download/aventura01-v1.0.1/module.json",
+  "download": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/download/aventura01-v1.0.1/clandestino-silencio-absoluto.zip"
 }

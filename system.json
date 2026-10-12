@@ -1,8 +1,8 @@
 {
   "id": "clandestino-rpg-foundry",
   "title": "CLANDESTINO — Horror Espacial",
-  "description": "Corrige título nativo da janela ActorSheetV2: Registro de Tripulante — nome do ator.",
-  "version": "0.6.47",
+  "description": "Organiza o cabeçalho da ficha PC com retrato e sensor BIO na coluna esquerda e identificação à direita.",
+  "version": "0.6.48",
   "authors": [
     {
       "name": "Adaptação digital experimental — baseado em CLANDESTINO, de Túlio Costa"

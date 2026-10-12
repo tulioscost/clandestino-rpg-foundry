@@ -21,8 +21,8 @@
           "VON": 1
         },
         "health": {
-          "value": 3,
-          "max": 3
+          "value": 5,
+          "max": 5
         },
         "bpm": {
           "value": 60
@@ -103,7 +103,8 @@
         },
         "activeTalents": [],
         "activeConditions": [],
-        "origin": "Humano"
+        "origin": "Humano",
+        "bioPenalizedAttributes": []
       },
       "infra": {
         "resources": {

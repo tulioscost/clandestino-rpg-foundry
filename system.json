@@ -1,8 +1,8 @@
 {
   "id": "clandestino-rpg-foundry",
   "title": "CLANDESTINO — Horror Espacial",
-  "description": "Correção do painel de Caminho e Trilha e seleção do visual d6 CLANDESTINO Neon/BPM Crítico em cada rolagem conforme BPM do ator.",
-  "version": "0.6.37",
+  "description": "Edição 5.2.2: teto 10d6, PV ROB x 5, perícia +1d6 por graduação, quatro atributos penalizados para Bioprojetados.",
+  "version": "0.6.38",
   "authors": [
     {
       "name": "Adaptação digital experimental — baseado em CLANDESTINO, de Túlio Costa"
@@ -17,7 +17,8 @@
     "module/compendiums.mjs",
     "module/music.mjs",
     "module/dice-so-nice.mjs",
-    "module/apocalypse.mjs"
+    "module/apocalypse.mjs",
+    "module/health-migration.mjs"
   ],
   "styles": [
     "styles/clandestino.css"
@@ -29,7 +30,7 @@
   "secondaryTokenAttribute": "bpm",
   "url": "https://github.com/tulioscost/clandestino-rpg-foundry",
   "manifest": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/latest/download/system.json",
-  "download": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/download/v0.6.37/clandestino-rpg-foundry.zip",
+  "download": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/download/v0.6.38/clandestino-rpg-foundry.zip",
   "media": [
     {
       "type": "cover",

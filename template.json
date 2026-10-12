@@ -206,7 +206,15 @@
         "weight": 0,
         "rollAttribute": "INT",
         "rollSkill": "",
-        "rollBonus": 0
+        "rollBonus": 0,
+        "durability": 100,
+        "durabilityMax": 100,
+        "shelfLifeMonths": 120,
+        "expirationDate": "",
+        "rd": 0,
+        "weaknessType": "",
+        "weaknessPenalty": 0,
+        "weaknessDescription": ""
       },
       "weapon": {
         "damage": 2,
@@ -215,15 +223,39 @@
         "ammoType": "",
         "ammoLoaded": 0,
         "magazineSize": 0,
-        "ammoPerShot": 1
+        "ammoPerShot": 1,
+        "durability": 100,
+        "durabilityMax": 100,
+        "shelfLifeMonths": 120,
+        "expirationDate": "",
+        "rd": 0,
+        "weaknessType": "",
+        "weaknessPenalty": 0,
+        "weaknessDescription": ""
       },
       "armor": {
         "protection": 1,
         "batteryMax": 0,
-        "equipped": false
+        "equipped": false,
+        "durability": 100,
+        "durabilityMax": 100,
+        "shelfLifeMonths": 120,
+        "expirationDate": "",
+        "rd": 0,
+        "weaknessType": "",
+        "weaknessPenalty": 0,
+        "weaknessDescription": ""
       },
       "ammo": {
-        "ammoType": ""
+        "ammoType": "",
+        "durability": 100,
+        "durabilityMax": 100,
+        "shelfLifeMonths": 120,
+        "expirationDate": "",
+        "rd": 0,
+        "weaknessType": "",
+        "weaknessPenalty": 0,
+        "weaknessDescription": ""
       }
     },
     "arma": {

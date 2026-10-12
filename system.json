@@ -30,7 +30,7 @@
   "secondaryTokenAttribute": "bpm",
   "url": "https://github.com/tulioscost/clandestino-rpg-foundry",
   "manifest": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/latest/download/system.json",
-  "download": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/download/v0.6.47/clandestino-rpg-foundry.zip",
+  "download": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/download/v0.6.48/clandestino-rpg-foundry.zip",
   "media": [
     {
       "type": "cover",

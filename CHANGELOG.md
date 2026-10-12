@@ -1,3 +1,8 @@
+## 0.6.47
+- Corrigido o título nativo da janela Foundry de personagens para “Registro de Tripulante — [nome]”.
+- Diferencia NPC, Ameaça e Lar conforme o tipo do ator.
+- Mantido cabeçalho interno, regras e dados da versão anterior.
+
 ## v0.6.46 — Ficha e tipografia
 - Cabeçalho do personagem: Registro de Tripulante — [nome].
 - Solicitar teste: visível e executável somente pelo Narrador (regra pré-existente conferida).

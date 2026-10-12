@@ -63,33 +63,53 @@ function sceneData(s){const W=px(s.W),H=px(s.H);return {
  navigation:true,active:false,notes:[],flags:{[ID]:{[MODULE_FLAG]:key}},
  description:s.notes
 };}
-/** Recupera fundos das cenas importadas anteriormente, sem duplicar documentos. */
+/** Repara cenas existentes sem criar cenas ou journals duplicados.
+ * Permite URL explícita quando os assets estiverem armazenados fora da pasta do módulo.
+ */
 async function repairSceneBackgrounds(){
  if(!game.user.isGM){ui.notifications.warn("Somente o Narrador pode reparar cenas.");return;}
+ const filePicker = foundry.applications.apps.FilePicker;
+ const targetFolder=`worlds/${game.world.id}/clandestino-silencio-absoluto/maps`;
+ let dirReady=true;
+ try {
+   const levels=[`worlds/${game.world.id}/clandestino-silencio-absoluto`,targetFolder];
+   for(const folder of levels){
+     try{await filePicker.createDirectory("data",folder);}catch(e){
+       // A pasta pode já existir. Não interromper se ela for navegável.
+       try {await filePicker.browse("data",folder);}catch(err){throw err;}
+     }
+   }
+ } catch(err){dirReady=false;console.warn("CLANDESTINO | Impossível criar diretório de mapas",err);}
  const report=[];
  for(const spec of scenes){
-   const target=`${prefix}${spec.file}`;
-   // Imagens devem ser acessíveis pelo próprio servidor Foundry, não por um caminho local.
-   let available=false;
-   try{
-     const res=await fetch(target,{method:"GET",cache:"no-store"});
-     available=res.ok && (res.headers.get("content-type")||"").toLowerCase().includes("image");
-     if(res.ok && !available) available=(await res.blob()).type.startsWith("image/");
-   }catch(err){console.warn("CLANDESTINO | Falha ao consultar imagem",target,err);}
-   if(!available){
-     report.push(`${spec.name}: imagem indisponível (${target}). Confira a pasta assets/maps do módulo.`);
-     continue;
+   const pkgSrc=prefix+spec.file;
+   let usedSrc=pkgSrc;
+   let response;
+   try{response=await fetch(pkgSrc,{cache:"no-store"});}catch(e){response=null;}
+   const valid=response?.ok && (response.headers.get("content-type")||"").includes("image");
+   if(valid && dirReady){
+     try{
+       const blob=await response.blob();
+       const file=new File([blob],spec.file,{type:"image/webp"});
+       const result=await filePicker.upload("data",targetFolder,file,{}, {notify:false});
+       usedSrc=result?.path || `${targetFolder}/${spec.file}`;
+     }catch(err){console.warn("CLANDESTINO | Upload para mundo falhou; usando imagem do módulo",err);}
+   }else if(!valid){
+     report.push(`${spec.name}: não é possível acessar ${pkgSrc}. Faça upload manual do mapa em '${targetFolder}' usando o gerenciador de arquivos do Foundry.`);
+     usedSrc=`${targetFolder}/${spec.file}`;
+     try{const check=await filePicker.browse("data",targetFolder);if(!check.files?.some(f=>f.endsWith('/'+spec.file)))continue;}catch(e){continue;}
    }
-   const matching=game.scenes.filter(scene=>scene.name===spec.name || scene.getFlag(ID,MODULE_FLAG)===key && scene.name.includes(spec.name.slice(5)));
+   const matching=game.scenes.filter(scene=>scene.name===spec.name);
    if(!matching.length){report.push(`${spec.name}: cena ainda não importada.`);continue;}
    for(const scene of matching){
      try{
-       await scene.update({"background.src":target,width:px(spec.W),height:px(spec.H),"grid.size":R});
-       report.push(`${scene.name}: fundo restaurado.`);
-     }catch(err){console.error("CLANDESTINO | Não foi possível restaurar fundo",scene.name,err);report.push(`${scene.name}: erro ao atualizar a cena.`);}
+       await scene.update({"background.src":usedSrc,width:px(spec.W),height:px(spec.H),"grid.size":R});
+       report.push(`${scene.name}: caminho atualizado para ${usedSrc}`);
+     }catch(err){console.error("CLANDESTINO | Erro ao atualizar cena",scene.name,err);report.push(`${scene.name}: falha ao salvar o fundo.`);}
    }
  }
- new Dialog({title:"CLANDESTINO | Diagnóstico das imagens",content:`<div style="max-height:360px;overflow:auto"><p>${report.map(line=>esc(line)).join("</p><p>")}</p></div>`,buttons:{ok:{label:"Fechar"}}}).render(true);
+ const escaped=report.map(line=>`<p>${esc(line)}</p>`).join('');
+ new Dialog({title:"CLANDESTINO | Reparação de fundos v1.0.2",content:`<div style="max-height:420px;overflow:auto">${escaped}<p><b>Cenas duplicadas:</b> a rotina NÃO apaga cenas. Exclua manualmente as cópias após revisar as imagens.</p></div>`,buttons:{ok:{label:"Fechar"}}}).render(true);
 }
 async function importAdventure(){
  if(!game.user.isGM){ui.notifications.warn("Somente o Narrador pode importar a aventura.");return;}
@@ -116,8 +136,8 @@ async function importAdventure(){
 Hooks.once("ready",()=>{
  game.clandestinoAdventure01={importAdventure,repairSceneBackgrounds};
  if(!game.user.isGM)return;
- if(!game.macros.some(m=>m.name==="CLANDESTINO | Reparar mapas da Sessão 01")){
-  Macro.create({name:"CLANDESTINO | Reparar mapas da Sessão 01",type:"script",img:"icons/svg/eye.svg",command:"await game.clandestinoAdventure01.repairSceneBackgrounds();"})
+ if(!game.macros.some(m=>m.name==="CLANDESTINO | Reparar fundos v1.0.2")){
+  Macro.create({name:"CLANDESTINO | Reparar fundos v1.0.2",type:"script",img:"icons/svg/eye.svg",command:"await game.clandestinoAdventure01.repairSceneBackgrounds();"})
   .catch(err=>console.warn("CLANDESTINO | Não foi possível criar macro de reparo",err));
  }
  if(game.macros.some(m=>m.name==="CLANDESTINO | Importar Sessão 01"))return;

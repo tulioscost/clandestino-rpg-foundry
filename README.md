@@ -1,28 +1,17 @@
-> **v1.0.1:** se as cenas estiverem sem fundo, execute a macro **CLANDESTINO | Reparar mapas da Sessão 01**. Não reimporte a aventura.
+# CLANDESTINO Aventura 01 v1.0.2
 
-# CLANDESTINO — Protocolo: Silêncio Absoluto | Sessão 01
+# CLANDESTINO — Aventura 01 v1.0.2 — Reparo de Fundos
 
-Módulo de aventura opcional, separado do sistema **clandestino-rpg-foundry**. Versão 1.0.1.
+## Correção
+- Nova macro **CLANDESTINO | Reparar fundos v1.0.2** verifica os mapas WebP do módulo e os copia, quando possível, para a pasta própria do Mundo com a API do Foundry V14.
+- Reaplica o caminho de imagem aos fundos das cenas existentes, inclusive cópias com o mesmo nome.
+- Se o servidor não encontrar as imagens do módulo, apresenta a pasta de upload manual: `worlds/<id-do-mundo>/clandestino-silencio-absoluto/maps`.
+- A macro **não** gera novas cenas nem remove duplicatas, preservando paredes e documentos existentes.
 
-## Conteúdo
-- Três cenas com mapas sem legendas: Hangar A-3, Sala de Controle A-3C e Guarita A-3G.
-- Grades de 1m, iluminação inicial, paredes externas e portas simples (editáveis no Foundry).
-- Cinco entradas de diário: guia e pistas, briefing, manifestos, Salvat e VIGÍLIA.
-- Macro **CLANDESTINO | Importar Sessão 01**, criada para o Narrador ao iniciar um Mundo.
+## Instruções
+1. Publique a tag `aventura01-v1.0.2` com `module.json` e `clandestino-silencio-absoluto.zip`.
+2. Atualize e ative o módulo; execute como Narrador a macro **CLANDESTINO | Reparar fundos v1.0.2**.
+3. Caso o relatório aponte imagens indisponíveis, faça upload dos três arquivos `.webp` pelo File Picker do Foundry para a pasta indicada e execute novamente a macro.
+4. Atualize as cenas e exclua manualmente duplicatas, depois de conferir que nenhum registro foi personalizado.
 
-## Instalação manual
-1. Extraia `clandestino-silencio-absoluto.zip` na pasta `FoundryVTT/Data/modules/`.
-2. A estrutura correta é `Data/modules/clandestino-silencio-absoluto/module.json`.
-3. Reinicie o Foundry, habilite o módulo no Mundo CLANDESTINO e execute a macro **CLANDESTINO | Importar Sessão 01**.
-4. **Não execute a importação duas vezes**, salvo se quiser duplicar os documentos.
-5. Revise permissões dos Journals, geometria das paredes, posição das portas, luzes e escala dos mapas. Ative manualmente a cena inicial.
-
-## Limitações conhecidas
-- Os mapas são **plantas estilizadas geradas especificamente para esta preparação**, não desenhos arquitetônicos idênticos à prancha ilustrativa da etapa anterior.
-- Há paredes de perímetro e portas de entrada, não paredes exaustivas de obstáculos internos, vidro ou todas as salas de suporte. O Narrador deve acrescentá-las com a ferramenta de paredes.
-- O módulo gera *scenes* e *journal entries*, mas não automatiza descobertas, gatilhos de aproximação, trilha sonora ou sincronização de cenas entre os personagens.
-- O manifesto final exige substituir o placeholder pelo nome do personagem escolhido.
-- O importador foi validado por sintaxe, JSON e integridade do ZIP, mas **não foi executado em um servidor Foundry V14.368**.
-
-## Compatibilidade
-O manifesto declara Foundry v13 ou superior e marca a v14 como versão-alvo. Não distribui o sistema-base nem o Foundry.
+**Atenção:** é necessário verificar a imagem no Foundry V14.368 real. O funcionamento de arquivos hospedados em caminhos personalizados varia segundo a instalação.

@@ -1,8 +1,8 @@
 {
   "id": "clandestino-rpg-foundry",
   "title": "CLANDESTINO — Horror Espacial",
-  "description": "Evolução e habilidades de ameaças; 80 histórias de origem e geradores automáticos de personagens e ameaças.",
-  "version": "0.6.27",
+  "description": "Criador de token na ficha: 4 molduras neon, foto do ator, integração com VTTA Tokenizer e atualização de token protótipo.",
+  "version": "0.6.30",
   "authors": [
     {
       "name": "Adaptação digital experimental — baseado em CLANDESTINO, de Túlio Costa"
@@ -29,7 +29,7 @@
   "secondaryTokenAttribute": "bpm",
   "url": "https://github.com/tulioscost/clandestino-rpg-foundry",
   "manifest": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/latest/download/system.json",
-  "download": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/download/v0.6.27/clandestino-rpg-foundry.zip",
+  "download": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/download/v0.6.30/clandestino-rpg-foundry.zip",
   "media": [
     {
       "type": "cover",

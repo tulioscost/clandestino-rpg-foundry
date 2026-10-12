@@ -1,3 +1,6 @@
+## v0.6.43
+- Contraste de tipografia, campos e menus nos modos claro e escuro do Foundry; cores de foco acessíveis.
+
 # CLANDESTINO — Histórico resumido
 
 ## v0.6.40

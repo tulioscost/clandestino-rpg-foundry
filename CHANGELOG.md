@@ -1,3 +1,9 @@
+## v0.6.51 — Preparação para Foundry VTT 14.369
+- Sistema e manifesto atualizados para v0.6.51, com alvo de compatibilidade Foundry VTT 14.369.
+- URL de download da Release corrigida para v0.6.51.
+- Funcionalidades da v0.6.50 preservadas; sem alterações nas regras e sem migração de dados.
+- Verificação estática concluída; teste de funcionamento no Foundry 14.369 pendente.
+
 ## v0.6.50 — Rádio universal e regulador de sinal do Narrador
 - Rádio portátil disponível a todos os jogadores e ao Narrador, sem requisito de equipamento.
 - Regulador mundial de sinal de 0% a 100%, editável exclusivamente pelo Narrador.

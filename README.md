@@ -1,3 +1,9 @@
+# CLANDESTINO para Foundry VTT — v0.6.51
+
+**Alvo: Foundry VTT V14.369.** Mínimo declarado: V14. Testes funcionais em servidor 14.369 permanecem pendentes.
+
+Para atualizar: faça backup de seus Mundos; instale o Foundry 14.369 e atualize o sistema pela Release `v0.6.51`.
+
 ## v0.6.36
 24 novos equipamentos técnicos e compêndio separado de drogas e medicações.
 

@@ -1,3 +1,11 @@
+## v0.6.50 — Rádio universal e regulador de sinal do Narrador
+- Rádio portátil disponível a todos os jogadores e ao Narrador, sem requisito de equipamento.
+- Regulador mundial de sinal de 0% a 100%, editável exclusivamente pelo Narrador.
+- Indicador de qualidade de verde a vermelho visível para todos, inclusive com o rádio recolhido.
+- 0–49%: sinal ruim/ausente, transmissão bloqueada; 50–100%: transmissão permitida.
+- Mensagem não enviada continua no campo; envio privado, efeito sonoro e alertas da v0.6.49 preservados.
+- Sem alterações nas regras de Resistência, drogas ou abuso 3d6.
+
 ## v0.6.49 — Rádio privado, substâncias e abuso (3d6)
 - Rádio acima da Data Terrestre, mensagens privadas via ChatMessage.whisper e áudio de conexão.
 - 20 substâncias com dificuldade de Resistência e limite de uso por cena, parâmetros propostos para playtest.

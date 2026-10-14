@@ -1,8 +1,8 @@
 {
   "id": "clandestino-rpg-foundry",
   "title": "CLANDESTINO — Horror Espacial",
-  "description": "Organiza o cabeçalho da ficha PC com retrato e sensor BIO na coluna esquerda e identificação à direita.",
-  "version": "0.6.48",
+  "description": "Rádio privado retrofuturista e mecânica de Resistência, substâncias e abuso 3d6.",
+  "version": "0.6.49",
   "authors": [
     {
       "name": "Adaptação digital experimental — baseado em CLANDESTINO, de Túlio Costa"
@@ -30,7 +30,7 @@
   "secondaryTokenAttribute": "bpm",
   "url": "https://github.com/tulioscost/clandestino-rpg-foundry",
   "manifest": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/latest/download/system.json",
-  "download": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/download/v0.6.48/clandestino-rpg-foundry.zip",
+  "download": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/download/v0.6.49/clandestino-rpg-foundry.zip",
   "media": [
     {
       "type": "cover",

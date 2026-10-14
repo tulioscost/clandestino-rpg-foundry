@@ -215,7 +215,19 @@
         "rd": 0,
         "weaknessType": "",
         "weaknessPenalty": 0,
-        "weaknessDescription": ""
+        "weaknessDescription": "",
+        "substance": {
+          "isSubstance": false,
+          "category": "",
+          "severity": 1,
+          "difficulty": 1,
+          "limit": 1,
+          "duration": "",
+          "immediateEffect": "",
+          "adverseEffect": "",
+          "risk": "",
+          "sourceStatus": ""
+        }
       },
       "weapon": {
         "damage": 2,

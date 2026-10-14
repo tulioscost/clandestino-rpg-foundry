@@ -1,3 +1,9 @@
+## v0.6.49 — Rádio privado, substâncias e abuso (3d6)
+- Rádio acima da Data Terrestre, mensagens privadas via ChatMessage.whisper e áudio de conexão.
+- 20 substâncias com dificuldade de Resistência e limite de uso por cena, parâmetros propostos para playtest.
+- Tabela de abuso 3d6 com 16 resultados, importada como RollTable.
+- Preservados os registros originais de drogas e medicações em Journal.
+
 ## 0.6.47
 - Corrigido o título nativo da janela Foundry de personagens para “Registro de Tripulante — [nome]”.
 - Diferencia NPC, Ameaça e Lar conforme o tipo do ator.

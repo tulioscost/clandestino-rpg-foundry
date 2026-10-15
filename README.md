@@ -93,3 +93,7 @@ Quando o módulo **Dice So Nice!** estiver ativo, o sistema registra automaticam
 
 ## v0.6.12
 Ajustes de legibilidade e responsividade; o dado CLANDESTINO é opcional nas preferências do Dice So Nice, sem alteração forçada das escolhas individuais.
+
+
+## Fichário alternativo (v0.6.52)
+Selecione **CLÁSSICO** ou **FICHÁRIO** na ficha do tripulante; veja `docs/FICHARIO_v0.6.52.md`.

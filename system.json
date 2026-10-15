@@ -1,8 +1,8 @@
 {
   "id": "clandestino-rpg-foundry",
   "title": "CLANDESTINO — Horror Espacial",
-  "description": "Sistema de horror espacial. Alvo de compatibilidade Foundry VTT 14.369; preserva rádio privado, sinal do Narrador, testes de Resistência, abuso 3d6, inventário e fichas responsivas.",
-  "version": "0.6.51",
+  "description": "CLANDESTINO v0.6.52: ficha alternativa Fichário com abas laterais iluminadas, alternância Clássico/Fichário e preservação de mecânicas; Foundry VTT 14.369.",
+  "version": "0.6.52",
   "authors": [
     {
       "name": "Adaptação digital experimental — baseado em CLANDESTINO, de Túlio Costa"
@@ -30,7 +30,7 @@
   "secondaryTokenAttribute": "bpm",
   "url": "https://github.com/tulioscost/clandestino-rpg-foundry",
   "manifest": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/latest/download/system.json",
-  "download": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/download/v0.6.51/clandestino-rpg-foundry.zip",
+  "download": "https://github.com/tulioscost/clandestino-rpg-foundry/releases/download/v0.6.52/clandestino-rpg-foundry.zip",
   "media": [
     {
       "type": "cover",

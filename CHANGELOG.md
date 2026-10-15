@@ -1,3 +1,13 @@
+# v0.6.52 — Fichário alternativo
+
+- Modelo Fichário alternável com o Clássico no cabeçalho da ficha.
+- Sete abas mecânicas com ícones e cores neon, baseadas na arte de referência aprovada.
+- Reutilização de controles reais: atributos, perícias, inventário, condições, talentos, PV, RD, BPM e ações do ator.
+- Aba Equipamentos com ações sobre itens reais; Rádio abre o painel privado existente.
+- Preferência de layout persistida por cliente e responsividade para janelas pequenas.
+- Correção textual da ajuda de perícias: 1d6 por graduação.
+- Compatibilidade-alvo Foundry VTT 14.369.
+
 ## v0.6.51 — Preparação para Foundry VTT 14.369
 - Sistema e manifesto atualizados para v0.6.51, com alvo de compatibilidade Foundry VTT 14.369.
 - URL de download da Release corrigida para v0.6.51.
